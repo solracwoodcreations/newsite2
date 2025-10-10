@@ -54,10 +54,10 @@ nav a {
   transition: background-color 0.3s ease;
 }
 
-/*
+
 nav a:hover {
-  background-color: lightblue;
-} */
+  background-color: white;
+} 
 
 /* Sidebar */
 .sidebar {
