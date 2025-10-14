@@ -252,13 +252,13 @@ main, h1 {
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 */
- .pblog .blog-photo {
-  max-width: 600px;  /* caps the max width */
- width: 100%;       /* makes it responsive */
-  height: auto;
+ /*.pblog .blog-photo {
+  max-width: 600px; /* caps the max width */
+ /*width: 100%;       /* makes it responsive */
+  /*height: auto;
   display: block;
   margin: 1rem auto; /* centers */
- border-radius: 12px;
+ /*border-radius: 12px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
@@ -277,13 +277,13 @@ main, h1 {
  
 
 /* Match blog page author section to homepage cards */
- .blogonly .profile-pic {
+ /*.blogonly .profile-pic {
    
   padding-bottom: 13px;
-}
+}*/
 
 /* “Read More” button style */
-/*
+
 .button-primary {
   background-color: #4a90e2;
   color: #fff;
@@ -458,7 +458,7 @@ main, h1 {
 }
 
 /* Universal landscape fix for phones */
-@media (orientation: landscape) and (max-height: 500px) {
+/*@media (orientation: landscape) and (max-height: 500px) {
   .pblog {
     max-width: 600px;
     padding-left: 3vw;
@@ -472,36 +472,36 @@ main, h1 {
 }
 
 /* Smooth transition */
-.pblog .blog-photo {
+/*.pblog .blog-photo {
   transition: width 0.3s ease, max-width 0.3s ease;
 }
 
 /* Mobile landscape "zoom to fill" effect */
-@media screen and (orientation: landscape) and (max-width: 768px) {
+/*@media screen and (orientation: landscape) and (max-width: 768px) {
   .pblog .blog-photo {
     width: 100vw;           /* fills full width of screen */
-    height: 100vh;          /* fills full height */
-    object-fit: cover;      /* zooms in & crops to fill */
-    object-position: center center; /* keep center focused */
-    display: block;
+    /*height: 100vh;          /* fills full height */
+   /* object-fit: cover;      /* zooms in & crops to fill */
+    /*object-position: center center; /* keep center focused */
+   /* display: block;
     margin: 0 auto;
     border-radius: 0;       /* optional: remove rounding for edge-to-edge look */
-  }
+  /* }
 }
 
 /* Mobile landscape: make text span 80% of the viewport */
-@media screen and (orientation: landscape) and (max-width: 768px) {
+/*@media screen and (orientation: landscape) and (max-width: 768px) {
   .pblog {
     max-width: 80vw;     /* paragraphs take up 80% of the screen width */
-    margin: 0 auto;      /* keep them centered */
-    padding-left: 0;     /* prevent double padding */
-    padding-right: 0;
+    /*margin: 0 auto;      /* keep them centered */
+   /* padding-left: 0;     /* prevent double padding */
+    /*padding-right: 0;
   }
 
   .pblog p {
     font-size: 1rem;     /* optional: adjust font size if needed */
-    line-height: 1.6;    /* keep it readable */
-  }
+    /*line-height: 1.6;    /* keep it readable */
+ /* }
 }
 
  
