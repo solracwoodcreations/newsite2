@@ -151,7 +151,7 @@ main, h1 {
 }
 
 /* Colored word */
-/*
+
 .colored-word {
   color: red;
 } */
@@ -163,7 +163,7 @@ main, h1 {
   padding: 2rem 1rem;
 } */
 
-/*
+
 .card {
   background: #fff;
   border-radius: 12px;
@@ -322,7 +322,7 @@ main, h1 {
 /* } 
 
 /* Carousel */
-/*
+
 .carousel-container {
   position: relative;
   max-width: 70vw;
@@ -340,8 +340,8 @@ main, h1 {
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: none;  /* IE and Edge */
- /* scrollbar-width: none;  /* Firefox */
-/*  padding: 0;
+  scrollbar-width: none;  /* Firefox */
+  padding: 0;
   margin: 0;
   list-style: none;
 }
@@ -411,7 +411,7 @@ main, h1 {
 } */
 
 /* Larger screens carousel */
-/*@media (min-width: 768px) {
+@media (min-width: 768px) {
   .carousel-container {
     max-width: 800px;
   }
@@ -433,7 +433,7 @@ main, h1 {
   .carousel-indicators {
     display: none;
   }
-} */
+} 
 
 /* Responsive nav & sidebar */
 @media (max-width: 800px) {
@@ -512,7 +512,7 @@ main, h1 {
  
 
 /* Footer */
-/*.footer {
+.footer {
   background-color: #f0f8ff;
   padding: 20px 0;
   text-align: center; */
