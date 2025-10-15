@@ -215,6 +215,7 @@ main, h1 {
 
 .profile-pic img {
   position: relative;
+  padding-top: 12px;
   
   width: 40px;
   height: 40px;
