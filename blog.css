@@ -130,7 +130,7 @@ article h2 {
 .name-date .date {
   font-size: 0.85rem;
   color: var(--color-muted);
-  margin-top: 0;
+  /*margin-top: 0;*/
 }
 
 /* ================================
