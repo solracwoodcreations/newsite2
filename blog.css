@@ -118,6 +118,7 @@ article h2 {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+   gap: 0.1rem;
 }
 
 .name-date .name {
