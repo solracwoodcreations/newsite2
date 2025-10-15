@@ -114,6 +114,10 @@ article h2 {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+.profile {
+  padding-top: 0.6rem; 
+}
+
 
 
 .name-date {
