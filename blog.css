@@ -1,0 +1,221 @@
+/* ================================
+   GLOBAL STYLES
+=================================== */
+
+:root {
+  --font-body: 'Inter', sans-serif;
+  --color-bg: #fafafa;
+  --color-text: #222;
+  --color-muted: #555;
+  --color-accent: #3a6ea5;
+  --color-border: #e0e0e0;
+  --max-width: 750px;
+  --line-height: 1.7;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: var(--line-height);
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ================================
+   HEADER
+=================================== */
+
+header {
+  text-align: center;
+  padding: 4rem 1rem 2rem;
+  background-color: #fff;
+  border-bottom: 1px solid var(--color-border);
+}
+
+header h1 {
+  font-size: 2.2rem;
+  color: var(--color-accent);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  color: var(--color-muted);
+  font-size: 1.1rem;
+}
+
+/* ================================
+   MAIN CONTAINER
+=================================== */
+
+.container {
+  max-width: var(--max-width);
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+  background-color: #fff;
+}
+
+/* ================================
+   ARTICLE HEADER (AUTHOR SECTION)
+=================================== */
+
+h2 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  line-height: 1.3;
+  margin-bottom: 1.2rem;
+}
+
+/* Wrap profile image and meta info horizontally */
+.profile,
+.name-date {
+  display: flex;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Author section container */
+.profile,
+.name-date {
+  margin-bottom: 1.5rem;
+}
+
+/* Align author info and profile horizontally */
+.name-date,
+.profile {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Create horizontal author layout */
+.name-date {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  float: left;
+}
+
+.profile {
+  float: right;
+}
+
+.profile img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--color-border);
+  transition: transform 0.3s ease;
+}
+
+.profile img:hover {
+  transform: scale(1.05);
+}
+
+.name-date .name {
+  font-weight: 600;
+  color: var(--color-text);
+  font-size: 1rem;
+}
+
+.name-date .date {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  margin-top: 0.2rem;
+}
+
+/* Clear floats after profile section */
+.name-date::after,
+.profile::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ================================
+   ARTICLE CONTENT
+=================================== */
+
+article p {
+  font-size: 1.05rem;
+  margin-bottom: 1.3rem;
+  color: var(--color-text);
+}
+
+article strong {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+article em {
+  color: var(--color-muted);
+  font-style: italic;
+}
+
+/* ================================
+   IMAGES
+=================================== */
+
+.blog-photo {
+  display: block;
+  max-width: 100%;
+  margin: 2rem auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-photo:hover {
+  transform: scale(1.01);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+/* ================================
+   FOOTER
+=================================== */
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  border-top: 1px solid var(--color-border);
+  background-color: #fff;
+}
+
+/* ================================
+   RESPONSIVE
+=================================== */
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  .name-date {
+    align-items: flex-start;
+  }
+
+  .profile img {
+    width: 55px;
+    height: 55px;
+  }
+}
