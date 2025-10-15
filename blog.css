@@ -210,6 +210,7 @@ main, h1 {
 }
 
 .profile-pic {
+  padding-top: 13px;
   flex-shrink: 0; /* prevents image from shrinking */
 }
 
