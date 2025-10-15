@@ -100,7 +100,7 @@ article h2 {
 }
 
 .profile img {
-   padding-top: 0.5rem;
+
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -112,6 +112,10 @@ article h2 {
 .profile img:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+  padding-top: 0.5rem;
 }
 
 .name-date {
