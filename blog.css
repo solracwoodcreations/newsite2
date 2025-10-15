@@ -19,10 +19,6 @@
   padding: 0;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: var(--font-body);
   background-color: var(--color-bg);
@@ -67,10 +63,10 @@ header p {
 }
 
 /* ================================
-   ARTICLE HEADER (AUTHOR SECTION)
+   BLOG TITLE
 =================================== */
 
-h2 {
+article h2 {
   font-size: 1.9rem;
   font-weight: 700;
   color: var(--color-accent);
@@ -78,56 +74,41 @@ h2 {
   margin-bottom: 1.2rem;
 }
 
-/* Wrap profile image and meta info horizontally */
-.profile,
-.name-date {
+/* ================================
+   AUTHOR SECTION
+=================================== */
+
+.profile-section {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
+  gap: 1rem; /* space between image and name/date */
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--color-border);
 }
 
-.profile {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-/* Author section container */
-.profile,
-.name-date {
-  margin-bottom: 1.5rem;
-}
-
-/* Align author info and profile horizontally */
-.name-date,
-.profile {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-/* Create horizontal author layout */
-.name-date {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  float: left;
-}
-
-.profile {
-  float: right;
-}
-
+/* Profile image on the left */
 .profile img {
   width: 65px;
   height: 65px;
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid var(--color-border);
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .profile img:hover {
   transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Name and date stacked vertically on the right */
+.name-date {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .name-date .name {
@@ -139,15 +120,7 @@ h2 {
 .name-date .date {
   font-size: 0.9rem;
   color: var(--color-muted);
-  margin-top: 0.2rem;
-}
-
-/* Clear floats after profile section */
-.name-date::after,
-.profile::after {
-  content: "";
-  display: table;
-  clear: both;
+  margin-top: 0.25rem;
 }
 
 /* ================================
@@ -206,16 +179,20 @@ footer {
 =================================== */
 
 @media (max-width: 600px) {
-  h2 {
-    font-size: 1.6rem;
-  }
-
-  .name-date {
-    align-items: flex-start;
+  .profile-section {
+    gap: 0.75rem;
   }
 
   .profile img {
     width: 55px;
     height: 55px;
+  }
+
+  .name-date .name {
+    font-size: 0.95rem;
+  }
+
+  .name-date .date {
+    font-size: 0.85rem;
   }
 }
