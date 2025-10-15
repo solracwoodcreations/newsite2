@@ -261,3 +261,26 @@ footer {
     font-size: 1rem;
   }
 }
+
+/* Fix font size for mobile landscape to match portrait */
+@media (max-width: 600px) and (orientation: landscape) {
+  body {
+    font-size: 1rem !important;
+  }
+
+  header h1 {
+    font-size: 1.75rem !important;
+  }
+
+  header p {
+    font-size: 0.95rem !important;
+  }
+
+  article h2 {
+    font-size: 1.4rem !important;
+  }
+
+  article p {
+    font-size: 1rem !important;
+  }
+}
