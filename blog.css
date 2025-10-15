@@ -203,7 +203,7 @@ main, h1 {
 /* === BLOG META: profile image + author info horizontally aligned === */
 .blog-meta {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 0.8rem;
   margin: 0.5rem 0 1rem 0;
   padding-left: 1rem;
@@ -215,7 +215,7 @@ main, h1 {
 
 .profile-pic img {
   position: relative;
-  top: 6px;
+  
   width: 40px;
   height: 40px;
   border-radius: 50%;
