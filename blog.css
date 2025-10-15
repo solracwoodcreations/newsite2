@@ -256,6 +256,7 @@ footer {
   .profile img {
     width: 70px;
     height: 70px;
+     padding-top: 0.3rem;
   }
 
   footer {
