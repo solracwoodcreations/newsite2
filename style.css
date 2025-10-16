@@ -137,6 +137,7 @@ nav a:hover {
 
 /* Logo */
 .logo img {
+  border: 1px solid #333;
   width: 200px;
   height: 210px;
   border-radius: 48%;
