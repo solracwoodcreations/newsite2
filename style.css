@@ -154,6 +154,11 @@ main, h1 {
   color: black;
 }
 
+main > p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 /* Colored word */
 
 .colored-word {
