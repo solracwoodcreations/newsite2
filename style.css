@@ -613,7 +613,7 @@ main > p {
 }
 
 /* Icon buttons */
-.icon-button {
+footer .icon-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -626,19 +626,19 @@ main > p {
   transition: transform 0.3s ease;
 }
 
-.icon-button.youtube {
+footer .icon-button.youtube {
   background-color: #ff0000;
 }
 
-.icon-button.envelope {
+footer .icon-button.envelope {
   background-color: #4a90e2;
 }
 
-.icon-button.phone {
+footer .icon-button.phone {
   background-color: #4a90e2;
 }
 
-.icon-button:hover {
+footer .icon-button:hover {
   transform: scale(1.1);
 }
 
