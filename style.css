@@ -12,7 +12,7 @@ body {
   padding-top: 70px;
   min-height: 100vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #fff;
+  background-color: #fff; /* You can add background image if needed */
   color: black;
 }
 
@@ -63,7 +63,10 @@ nav a:hover {
   background-color: lightblue;
 }
 
-/* Sidebar 
+/* Sidebar */
+/* Navigation */ 
+ 
+/*
 .sidebar {
   position: fixed;
   top: 0;
@@ -80,7 +83,7 @@ nav a:hover {
 
 .sidebar.active {
   display: flex;
-} */
+}*/
 /* === ANIMATED SIDEBAR VERSION === */
 .sidebar {
   position: fixed;
@@ -118,9 +121,9 @@ nav a:hover {
   color: black;
 }
 
-.sidebar a:hover {
+/*.sidebar a:hover {
   background-color: lightblue;
-}
+}*/
 
 /* Menu button for mobile */
 .menu-button {
@@ -128,6 +131,7 @@ nav a:hover {
   cursor: pointer;
 }
 
+/* Align the icon and text horizontally in nav */
 .menu-button a {
   padding: 0;
   height: 50px;
@@ -138,12 +142,12 @@ nav a:hover {
 
 /* Logo */
 .logo img {
-  border: 1px solid #333;
   width: 200px;
   height: 210px;
   border-radius: 48%;
   display: block;
   margin: 1rem auto;
+  border: 3px solid black;
 }
 
 /* Main content */
@@ -156,23 +160,19 @@ main, h1 {
 }
 
 main > p {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 /* Colored word */
-
 .colored-word {
   color: red;
-} 
+}
 
 /* blog */
-
-
 #blog {
   padding: 2rem 1rem;
-} 
-
+}
 
 .card {
   background: #fff;
@@ -183,6 +183,8 @@ main > p {
   padding: 1.5rem;
   transition: transform 0.3s, box-shadow 0.3s;
 }
+
+
 
 .card:hover {
   transform: translateY(-5px);
@@ -208,95 +210,24 @@ main > p {
   line-height: 1.5;
   color: #444;
   margin-bottom: 1rem;
-} 
+  
+}
 
-/* === BLOG META: profile image + author info horizontally aligned === */
+
+/* blog meta and profile pic */ 
 .blog-meta {
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-  margin: 0.5rem 0 1rem 0;
-  padding-left: 1rem;
-}
-
-.profile-pic {
-  padding-top: 13px;
-  flex-shrink: 0; /* prevents image from shrinking */
-}
-
-.profile-pic img {
-  position: relative;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  object-fit: cover;
-  display: block;
-}
-
-/* Author info stacked next to photo */
-.author-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /*line-height: 1.3;*/
-}
-
-.author-name {
-  font-weight: 600;
-  color: #222;
-  font-size: 0.95rem;
-}
-
-.post-date {
-  color: #777;
-  font-size: 0.85rem;
-}
-
-/* === RESPONSIVE ADJUSTMENTS === */
-@media (min-width: 768px) {
-  .blog-meta {
-    gap: 1rem;
-    padding-left: 2rem;
-  }
-
-  .profile-pic img {
-    width: 50px;
-    height: 50px;
-  }
-
-  .author-name {
-    font-size: 1rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .blog-meta {
-    gap: 1.2rem;
-    padding-left: 3rem;
-  }
-
-  .profile-pic img {
-    width: 55px;
-    height: 55px;
-  }
-}
-
-
-
-
-/* Blog meta and profile pic */ 
-/*.blog-meta {
   display: flex;
   align-items: center;
   gap: 1rem;
   margin-bottom: 0;
-  padding-left: 10vw;
+  
 }
 
 .profile-pic img {
   display: block;
   width: 35px;
   height: 35px;
+  border: 1px solid black;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -306,8 +237,8 @@ main > p {
   align-items: center;
   justify-content: center;
   padding-top: 1rem;
-  padding-bottom: 13px; /* Ensures proper alignment */
-/*}
+  }
+
 
 .author-info {
   display: flex;
@@ -317,7 +248,8 @@ main > p {
 }
 
 /* Blog metadata (author & date) */
-/*.author-name {
+
+.author-name {
   font-weight: bold;
   color: #333;
 }
@@ -327,47 +259,7 @@ main > p {
   font-size: 0.85rem;
 }
 
-/*
-.blog-photo {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 1rem auto;
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-*/
- /*.pblog .blog-photo {
-  max-width: 600px; /* caps the max width */
- /*width: 100%;       /* makes it responsive */
-  /*height: auto;
-  display: block;
-  margin: 1rem auto; /* centers */
- /*border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-.pblog {
-  max-width: 800px;
-  margin: 0 auto;
-  padding-left: 5vw;
-  padding-right: 5vw;
-}
-
-/*.pblog p {
-  padding-left: 5vw;
-  padding-right: 5vw;
-}*/
-
- 
-
-/* Match blog page author section to homepage cards */
- /*.blogonly .profile-pic {
-   
-  padding-bottom: 13px;
-}*/
-
 /* “Read More” button style */
-
 .button-primary {
   background-color: #4a90e2;
   color: #fff;
@@ -386,27 +278,66 @@ main > p {
 
 .button-primary:hover {
   background-color: #0000cc;
-} 
-
-/* Videos */
-
-
-/*video {
-  max-width: 90%;      /* Changed from 300px to 90% width */
- /* max-width: 800px;    /* Optional: max width cap */
- /* height: auto;
-  display: block;
-  margin: 1rem auto;
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.video {
-  margin-bottom: 3rem; /* adds space between video blocks */
-/* } 
+ /* Wrapper for each video block (was previously .video) */
+.video-block {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.video-container {
+  width: 85vw;          /* 85% of viewport width */
+  max-width: 300px;     /* max width cap */
+  aspect-ratio: 2 / 3;  /* keeps correct shape */
+  margin: 1.5rem auto;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
+  background: #000;
+  position: relative;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+  transform: scale(1.3);
+  transform-origin: center;
+}
+
+ 
+
+ 
+
+/* Fix Vimeo video zoom / black borders */
+.video-container iframe[src*="vimeo"] {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* For local <video> files: make the <video> element behave like the iframe */
+.video-container.local-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* change to contain if you prefer letterbox */
+  display: block;
+  border: none;
+}
+
+/* Match video sizing to carousel style */
+.video-container {
+  width: 70vw;
+  max-width: 700px;
+  aspect-ratio: 4 / 5;  /* shorter, landscape-friendly shape */
+}
 
 /* Carousel */
-
 .carousel-container {
   position: relative;
   max-width: 70vw;
@@ -492,7 +423,7 @@ main > p {
 
 .indicator.active {
   background-color: #fff;
-} 
+}
 
 /* Larger screens carousel */
 @media (min-width: 768px) {
@@ -509,15 +440,15 @@ main > p {
   .carousel-button {
     background: rgba(0, 0, 0, 0.3);
   }
-
+  
   .carousel-button:hover {
     background: rgba(0, 0, 0, 0.5);
   }
-
+  
   .carousel-indicators {
     display: none;
   }
-} 
+}
 
 /* Responsive nav & sidebar */
 @media (max-width: 800px) {
@@ -541,52 +472,7 @@ main > p {
   display: none;
 }
 
-/* Universal landscape fix for phones */
-/*@media (orientation: landscape) and (max-height: 500px) {
-  .pblog {
-    max-width: 600px;
-    padding-left: 3vw;
-    padding-right: 3vw;
-  }
-
-  .pblog .blog-photo {
-    max-width: 450px;
-    width: 90%;
-  }
-}
-
-/* Smooth transition */
-/*.pblog .blog-photo {
-  transition: width 0.3s ease, max-width 0.3s ease;
-}
-
-/* Mobile landscape "zoom to fill" effect */
-/*@media screen and (orientation: landscape) and (max-width: 768px) {
-  .pblog .blog-photo {
-    width: 100vw;           /* fills full width of screen */
-    /*height: 100vh;          /* fills full height */
-   /* object-fit: cover;      /* zooms in & crops to fill */
-    /*object-position: center center; /* keep center focused */
-   /* display: block;
-    margin: 0 auto;
-    border-radius: 0;       /* optional: remove rounding for edge-to-edge look */
-  /* }
-}
-
-/* Mobile landscape: make text span 80% of the viewport */
-/*@media screen and (orientation: landscape) and (max-width: 768px) {
-  .pblog {
-    max-width: 80vw;     /* paragraphs take up 80% of the screen width */
-    /*margin: 0 auto;      /* keep them centered */
-   /* padding-left: 0;     /* prevent double padding */
-    /*padding-right: 0;
-  }
-
-  .pblog p {
-    font-size: 1rem;     /* optional: adjust font size if needed */
-    /*line-height: 1.6;    /* keep it readable */
- /* }
-}
+ 
 
 /* Footer */
 .footer {
@@ -642,6 +528,95 @@ footer .icon-button.phone {
 footer .icon-button:hover {
   transform: scale(1.1);
 }
+
+ 
+
+.blog-photo {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.pblog p {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+ 
+
+/* Match blog page author section to homepage cards */
+ .blogonly .profile-pic {
+   
+  padding-bottom: 13px;
+}
+
+ 
+/* Landscape (horizontal phone) adjustments */
+@media screen and (orientation: landscape) and (max-width: 900px) {
+  .card {
+    max-width: 90vw;      /* make cards fit neatly on screen */
+    margin: 2rem auto;    /* keep them centered */
+    padding: 1rem;        /* slightly tighter padding for fit */
+  }
+
+  .card img:not(.profile-pic img) {
+    margin-bottom: 0.3rem;
+    display: block;
+    border-radius: 10px;
+    object-fit: cover;
+    max-height: 60vh;/* prevents image from overtaking the screen */
+  }
+
+  .card picture {
+  display: contents;
+}
+
+  
+  .profile-pic img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;  /* restore circular image */
+    object-fit: cover;
+  }
+  h1, h2, p {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .card p {
+  margin-bottom: 0.15rem;
+  }
+  .card h2 {
+  margin-top: 0.15rem;
+  margin-bottom: 0.15rem;
+  }
+
+  .carousel-container {
+  max-width: 90vw;
+  max-height: 85vh;
+}
+
+.carousel-slide img {
+  height: auto;
+  max-height: 85vh;
+  object-fit: contain;
+}
+
+    .video-container {
+    max-width: 90vw;
+    max-height: 85vh;
+    aspect-ratio: 16 / 9; /* makes it fit nicely like the carousel */
+  }
+
+  .sidebar {
+  width: 15%;
+  height: 100vh;
+}
+}
+
+ 
 
  
 
