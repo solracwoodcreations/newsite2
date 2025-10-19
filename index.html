@@ -10,6 +10,7 @@
      
     
 </head>
+
 <body>
     <header>
         <nav>
@@ -44,7 +45,17 @@
             <!-- Card 1 -->
             <article>
                 <div class="card">
-                    <img src="images/pth.jpeg" alt="Paper towel holder story">
+                 <picture>
+  <!-- Landscape version (used when phone is sideways) -->
+  <source srcset="images/pthoriz.jpeg" media="(orientation: landscape)">
+  
+  <!-- Portrait version (used when phone is upright) -->
+  <source srcset="images/img1.jpeg" media="(orientation: portrait)">
+  
+  <!-- Fallback image -->
+  <img src="images/img1.jpeg" alt="Paper Towel Holder">
+   </picture>
+                    
                     <h2>Paper towel holder story</h2>
                     <div class="blog-meta">
                         <div class="profile-pic"><img src="images/IMG_4387.jpeg" alt="Author"></div>
@@ -95,7 +106,17 @@
             <!-- Card 4 -->
             <article>
                 <div class="card">
-                    <img src="images/shelf.jpg" alt="Coffee shelf station">
+                 <picture>
+  <!-- Landscape version (used when phone is sideways) -->
+  <source srcset="images/shelfhoriz.jpeg" media="(orientation: landscape)">
+  
+  <!-- Portrait version (used when phone is upright) -->
+  <source srcset="images/shelf.jpg" media="(orientation: portrait)">
+  
+  <!-- Fallback image -->
+  <img src="images/shelf.jpg" alt="Red mahogany coffee shelf station">
+   </picture>
+                    
                     <h2>Coffee shelf station</h2>
                     <div class="blog-meta">
                         <div class="profile-pic"><img src="images/IMG_4387.jpeg" alt="Author"></div>
@@ -110,37 +131,84 @@
             </article>
         </section>
 
-        <!-- Vlog Section -->
-        <section id="vlog">
-            <div class="video">
-                <h3>Smoking Pipe</h3>
-                <div class="video-container">
-  <iframe src="https://player.vimeo.com/video/1111128530?badge=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<!-- Vlog Section -->
+<section id="vlog">
+  <div class="video-block">
+    <h3>Smoking Pipe</h3>
+    <div class="video-container">
+      <iframe
+        src="https://player.vimeo.com/video/1111128530?badge=0"
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+
+  <div class="video-block">
+    <h3>Test video</h3>
+    <div class="video-container local-video">
+      <video
+        src="https://raw.githubusercontent.com/solracwoodcreations/newsite/main/videos/testvid.mov"
+        controls>
+      </video>
+    </div>
+  </div>
+
+ <div class="video-block">
+  <h3>Test Video 2</h3>
+  <div class="video-container local-video">
+    <video
+      src="videos/testvid2.mp4"
+      controls
+      playsinline
+      preload="metadata"
+      poster="images/IMG_4371.jpeg">
+      Your browser does not support the video tag.
+    </video>
+  </div>
 </div>
-                 
-            </div>
-            <div class="video">
-                <h3>Test video</h3>
-                <video width="300" height="450" src="https://raw.githubusercontent.com/solracwoodcreations/newsite/main/images/testvid.mov" controls></video>
-            </div>
-        </section>
+</section>         
 
         <!-- Photos / Gallery Section -->
         <section id="photos">
             <h2>Photo Gallery</h2>
-            <div class="carousel-container">
-                <ul class="carousel-track">
-                    <li class="carousel-slide"><img src="images/IMG_4371.jpeg" alt="Image 1"></li>
-                    <li class="carousel-slide"><img src="images/ bagclips.jpeg" alt="Image 2"></li>
-                    <li class="carousel-slide"><img src="images/ graceduo.jpeg" alt="Image 3"></li>
-                    <li class="carousel-slide"><img src="images/ grace.jpeg" alt="Image 4"></li>
-                </ul>
+         
+          <div class="carousel-container">
+           <ul class="carousel-track">
+            
+                    <li class="carousel-slide">
+                     <picture><source srcset="images/leohoriz.jpeg" media="(orientation: landscape)">
+                      <source srcset="images/IMG_4371.jpeg" media="(orientation: portrait)">
+                      <img src="images/IMG_4371.jpeg" alt="Image 1">
+                     </picture></li>
+
+                     <li class="carousel-slide">
+                      <picture><source srcset="images/shelfhoriz.jpeg" media="(orientation: landscape)">
+                       <source srcset="images/bagclips.jpeg" media="(orientation: portrait)">
+                       <img src="images/bagclips.jpeg" alt="Image 2">
+                      </picture></li>
+                 
+                    <li class="carousel-slide">
+                     <picture><source srcset="images/shelfhoriz.jpeg" media="(orientation: landscape)">
+                      <source srcset="images/graceduo.jpeg" media="(orientation: portrait)">
+                      <img src="images/graceduo.jpeg" alt="Image 3">
+                     </picture></li>
+                    
+                    <li class="carousel-slide">
+                     <picture><source srcset="images/shelfhoriz.jpeg" media="(orientation: landscape)">
+                      <source srcset="images/grace.jpeg" media="(orientation: portrait)">
+                      <img src="images/grace.jpeg" alt="Image 4">
+                     </picture></li>
+                     </ul>
+           
                 <div class="carousel-navigation">
                     <button class="carousel-button prev"><i class="fa-solid fa-chevron-left"></i></button>
                     <div class="carousel-indicators"></div>
                     <button class="carousel-button next"><i class="fa-solid fa-chevron-right"></i></button>
                 </div>
             </div>
+        
         </section>
     </main>
 
@@ -157,3 +225,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+ 
