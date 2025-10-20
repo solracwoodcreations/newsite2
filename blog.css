@@ -310,3 +310,13 @@ footer {
     overflow-x: hidden;
   }
 }
+
+@media screen and (orientation: landscape) and (max-width: 900px) {
+  .blog-photo {
+    width: 100%;
+    max-width: 450px;   /* limits how wide it gets */
+    height: 75vh;       /* limits how tall it gets */
+    object-fit: contain; /* keeps full image visible */
+    object-position: center;
+  }
+}
