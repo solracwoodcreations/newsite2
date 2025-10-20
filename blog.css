@@ -63,7 +63,7 @@ header p {
 
 /* ================================
    MAIN CONTAINER
-=================================== 
+=================================== */
 
 .container {
   max-width: var(--max-width);
@@ -72,10 +72,8 @@ header p {
   padding: 1rem;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.03);
   border-radius: 6px;
-}*/
-.container {
-  padding: 0; /* remove inner spacing */
 }
+
 
 
 /* ================================
@@ -177,7 +175,7 @@ article em {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }*/
 .blog-photo {
-  display: center;
+  display: block;
   width: 100%;
   margin: 0; /* remove gap between image and container edges */
   border-radius: 6px; /* keep same corner rounding as container */
