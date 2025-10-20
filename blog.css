@@ -63,7 +63,7 @@ header p {
 
 /* ================================
    MAIN CONTAINER
-=================================== */
+=================================== 
 
 .container {
   max-width: var(--max-width);
@@ -72,7 +72,11 @@ header p {
   padding: 1rem;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.03);
   border-radius: 6px;
+}*/
+.container {
+  padding: 0; /* remove inner spacing */
 }
+
 
 /* ================================
    BLOG TITLE
@@ -162,15 +166,22 @@ article em {
 
 /* ================================
    BLOG IMAGE (IN ARTICLE)
-=================================== */
+=================================== 
 
 .blog-photo {
   display: block;
   width: 100%;
   margin: 1.5rem auto;
   border-radius: 6px;
-  /*box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);*/
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}*/
+.blog-photo {
+  display: block;
+  width: 100%;
+  margin: 0; /* remove gap between image and container edges */
+  border-radius: 6px; /* keep same corner rounding as container */
+  box-shadow: none; /* optional — use container’s shadow instead */
 }
 
 .blog-photo:hover {
