@@ -48,7 +48,18 @@
   <p>
      </p>
 
-  <img src="images/hppipe.jpeg" alt="" class="blog-photo">
+  <picture>
+  <!-- Landscape version (shown when phone or screen is sideways) -->
+  <source srcset="images/pipehoriz.jpeg" media="(orientation: landscape)">
+  
+  <!-- Portrait version (shown when phone is upright) -->
+  <source srcset="images/hppipe.jpeg" media="(orientation: portrait)">
+  
+  <!-- Fallback image -->
+  <img src="images/hppipe.jpeg" alt="Pipe and Stand" class="blog-photo">
+</picture>
+
+  
 
   <p>
      </p>
