@@ -298,18 +298,20 @@ footer {
   }
 }
 
-@media screen and (orientation: landscape) and (max-width: 900px) {
+ @media screen and (orientation: landscape) and (max-width: 900px) {
   .blog-photo {
     width: 100%;
-    max-width: 450px;
     height: 75vh;
     object-fit: contain;
     object-position: center;
+    border-radius: 12px;
   }
 
   body {
     overflow-x: hidden;
   }
 }
+
+ 
 
  
