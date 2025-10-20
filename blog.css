@@ -164,7 +164,7 @@ article em {
 
 /* ================================
    BLOG IMAGE (IN ARTICLE)
-=================================== 
+=================================== */
 
 .blog-photo {
   display: block;
@@ -173,14 +173,8 @@ article em {
   border-radius: 6px;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-}*/
-.blog-photo {
-  display: block;
-  width: 100%;
-  margin: 0; /* remove gap between image and container edges */
-  border-radius: 6px; /* keep same corner rounding as container */
-  box-shadow: none; /* optional — use container’s shadow instead */
 }
+ 
 
 .blog-photo:hover {
   transform: scale(1.01);
