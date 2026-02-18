@@ -94,12 +94,20 @@ section:not(:last-child) {
     text-align: center;
 }
 
+/* ===== Founder Intro ===== */
+#founder-intro {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
 #founder-intro img {
     width: 220px;
     max-width: 80%;
-    border-radius: 50%;
     margin-bottom: 25px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    background-color: #f5f1eb;
+    padding: 8px;
 }
 
 /* Remove left accent for centered intro heading */
@@ -107,3 +115,5 @@ section:not(:last-child) {
     border-left: none;
     padding-left: 0;
 }
+
+ 
