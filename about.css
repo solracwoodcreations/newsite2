@@ -13,6 +13,12 @@ body {
     padding: 0 20px;
 }
 
+h1 .subtitle {
+    display: block;
+    font-size: 1.5rem; /* smaller than the main h1 */
+    font-weight: normal; /* optional, so it’s less bold */
+}
+
 /* ===== Layout ===== */
 main {
     max-width: 900px;
