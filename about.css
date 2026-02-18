@@ -127,8 +127,8 @@ section:not(:last-child) {
 }
 
 #founder-intro img {
-    width: 85vw;
-    max-width: 85vw;
+    width: 80vw;
+    max-width: 80vw;
     margin-bottom: 25px;
     border-radius: 0;
     padding: 0;
