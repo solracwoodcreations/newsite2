@@ -89,9 +89,9 @@ section:not(:last-child) {
     padding-bottom: 40px;
 }
 
-/* ===== Founder Intro ===== */
+/* ===== Founder Intro ===== 
 #founder-intro {
-    text-align: center;
+    text-align: center; */
 
     /* ===== Founder Intro round ===== 
 #founder-intro {
@@ -109,12 +109,12 @@ section:not(:last-child) {
     margin-bottom: 25px;
 } */
 
-/* Remove left accent for centered intro heading */
+/* Remove left accent for centered intro heading 
 .no-accent {
     border-left: none;
     padding-left: 0;
 
-}
+} */
 
 /* ===== Founder Intro square ===== */
 #founder-intro {
