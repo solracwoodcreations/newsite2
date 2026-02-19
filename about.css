@@ -158,4 +158,26 @@ section:not(:last-child) {
     padding-left: 0;
 }
 
+.language-toggle {
+    text-align: right;
+    margin-bottom: 1rem;
+    font-family: Georgia, serif;
+}
+
+.language-toggle a {
+    text-decoration: none;
+    color: #2e2a26; /* same text color as body */
+    font-weight: normal;
+    border: 1px solid #a67c52; /* subtle wood accent */
+    padding: 0.25rem 0.6rem;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    font-size: 0.95rem;
+}
+
+.language-toggle a:hover {
+    background-color: #a67c52;
+    color: #fff;
+}
+
  
