@@ -696,6 +696,60 @@ footer .icon-button:hover {
     background-color: #005fcc;
   }
 
+
+.project-sidebar{
+
+position:fixed;
+top:0;
+right:-650px;
+width:650px;
+height:100%;
+
+background:white;
+
+box-shadow:-5px 0 25px rgba(0,0,0,0.2);
+
+transition:right .35s ease;
+
+z-index:3000;
+
+overflow-y:auto;
+
+}
+
+.project-sidebar.open{
+
+right:0;
+
+}
+
+.project-sidebar-inner{
+
+padding:40px;
+
+}
+
+.close-sidebar{
+
+font-size:28px;
+
+cursor:pointer;
+
+display:block;
+
+margin-bottom:20px;
+
+}
+
+@media (max-width:768px){
+
+.project-sidebar{
+
+width:100%;
+
+}
+
+}
  
 
  
