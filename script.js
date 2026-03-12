@@ -80,3 +80,26 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize the carousel
     updateCarousel();
 });
+
+
+// project one side bar
+
+function openProject(page){
+
+fetch(page)
+.then(response => response.text())
+.then(data => {
+
+document.getElementById("projectContent").innerHTML = data;
+
+document.getElementById("projectSidebar").classList.add("open");
+
+});
+
+}
+
+function closeProject(){
+
+document.getElementById("projectSidebar").classList.remove("open");
+
+}
