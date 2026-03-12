@@ -73,9 +73,13 @@
                      <h2>Paper Towel Holder</h2>
                 <p><strong>Commissioned — Private Collection</strong></p>
                 <p>Made from reclaimed exotic hardwood, this piece was designed to be functional and elegant, built to last a lifetime.</p>
-           <button class="button-primary">
+          <!-- <button class="button-primary">
         <a href="project1.html">Read More</a>
-      </button> 
+      </button> -->
+
+      <button class="button-primary" onclick="openProject('project1-content.html')">
+Read More
+</button>               
             
             </div>
         </article>
@@ -247,6 +251,20 @@
             </div>
         </div>
     </footer>
+
+     <div id="projectSidebar" class="project-sidebar">
+
+  <div class="project-sidebar-inner">
+
+    <span class="close-sidebar" onclick="closeProject()">
+      <i class="fa-solid fa-xmark"></i>
+    </span>
+
+    <div id="projectContent"></div>
+
+  </div>
+
+</div>
 
     <script src="script.js"></script>
 </body>
