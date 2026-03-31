@@ -5,6 +5,20 @@
     box-sizing: border-box;
 }
 
+.sr-only:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0.5em 1em;
+    background: #005fcc;
+    color: #fff;
+    clip: auto;
+    white-space: normal;
+    border-radius: 4px;
+    z-index: 1000;
+}
+
 body {
     font-family: "Georgia", serif;
     line-height: 1.7;
