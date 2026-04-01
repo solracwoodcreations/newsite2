@@ -179,12 +179,12 @@
  
  <header>
 
-    <nav>
-             <ul class="sidebar">
-  <li onclick="hideSidebar()">
-    <a class="icon-button xmark" href="#" aria-label="Close menu">
+    <nav aria-label="Main navigation">
+             <ul class="sidebar" id="sidebar-menu">
+  <li> 
+    <button class="icon-button xmark" onclick="hideSidebar()" aria-label="Close menu">
       <i class="fa-solid fa-xmark"></i>
-    </a>
+    </button> 
   </li>
   <li><a href="about.html">About</a></li>
   <li><a href="#materials">materials</a></li>
@@ -198,17 +198,17 @@
   <li class="hideOnMobile"><a href="index.html#works">Works</a></li>
   <li class="hideOnMobile"><a href="index.html#vlog">Vlog</a></li>
   <li class="hideOnMobile"><a href="index.html#photos">Photos</a></li>
- <li class="menu-button" onclick=showSidebar()>
-  <a class="icon-button bars" target="blank">
+ <li class="menu-button">
+  <button class="icon-button bars" onclick="showSidebar()" aria-label="Open menu" aria-expanded="false" aria-controls="sidebar-menu">
     <i class="fa-solid fa-bars"></i>
-  </a>
+  </button>
 </li>
 </ul>
     </nav>
  </header>
  
 
-  <main>
+  <main id="main">
   <h1>Paper Towel Holder</h1>
   <h2>Crafted from reclaimed Pinewood and finished in walnut.</h2>
 
@@ -236,7 +236,7 @@
       <img src="images/pth.jpeg" alt="Walnut stained paper towel holder made from reclaimed Pinewood" class="blog-photo">
     </picture>
 
-    <hr>
+    
    <section id="materials">
    <h2>Materials & Tools</h2>
 
@@ -246,10 +246,10 @@
   <li>Walnut stain</li>
   <li>Brass screws</li>
 
-  <li style="margin-top: 1rem;"><strong>Tools & Techniques:</strong></li>
-  <li>Hand saw</li>
-  <li>Sanding</li>
-  <li>Hand assembly and finishing</li>
+ <h3>Tools & Techniques</h3>
+ <li>Hand saw</li>
+ <li>Sanding</li>
+ <li>Hand assembly and finishing</li>
 </ul>
 
      
