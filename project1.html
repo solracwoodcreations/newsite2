@@ -180,12 +180,14 @@
  <header>
 
     <nav aria-label="Main navigation">
-             <ul class="sidebar" id="sidebar-menu">
-  <li> 
-    <button class="icon-button xmark" onclick="hideSidebar()" aria-label="Close menu">
-      <i class="fa-solid fa-xmark fa-3x"></i>
-    </button> 
-  </li>
+             <ul class="sidebar" id="sidebarMenu">
+
+              <li>
+  <a class="icon-button xmark" onclick="hideSidebar()" aria-label="Close menu">
+    <i class="fa-solid fa-xmark"></i>
+  </a>
+</li>
+   
   <li><a href="about.html">About</a></li>
   <li><a href="#materials">materials</a></li>
   <li><a href="index.html#works">Works</a></li>
@@ -198,11 +200,13 @@
   <li class="hideOnMobile"><a href="index.html#works">Works</a></li>
   <li class="hideOnMobile"><a href="index.html#vlog">Vlog</a></li>
   <li class="hideOnMobile"><a href="index.html#photos">Photos</a></li>
+
  <li class="menu-button">
-  <button class="icon-button bars" onclick="showSidebar()" aria-label="Open menu" aria-expanded="false" aria-controls="sidebar-menu">
-    <i class="fa-solid fa-bars fa-3x"></i>
-  </button>
+  <a class="icon-button bars" onclick="showSidebar()" aria-label="Open menu">
+    <i class="fa-solid fa-bars"></i>
+  </a>
 </li>
+  
 </ul>
     </nav>
  </header>
