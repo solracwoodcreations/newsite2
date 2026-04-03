@@ -7,6 +7,7 @@
      <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/d02d164750.js" crossorigin="anonymous"></script>
     <script type="application/ld+json"></script>
+     <title>SMWC Custom Wood Creations</title>
      
     
 </head>
@@ -15,8 +16,9 @@
     <header>
         <nav>
             <ul class="sidebar" id="sidebarMenu">
-                <li><a class="icon-button xmark" onclick="hideSidebar()"><i class="fa-solid fa-xmark"></i></a></li>
-                <li><a href="about.html">About</a></li>
+                 <li><a class="icon-button xmark" onclick="hideSidebar()" aria-label="Close menu">
+    <i class="fa-solid fa-xmark"></i></a>
+                 <li><a href="about.html">About</a></li>
                 <li><a href="#works">Works</a></li>
                 <li><a href="vlogs.html">Vlogs</a></li>
                 <li><a href="#photos">Photos</a></li>
@@ -27,7 +29,10 @@
                 <li class="hideOnMobile"><a href="#works">Works</a></li>
                 <li class="hideOnMobile"><a href="#vlogs">Vlogs</a></li>
                 <li class="hideOnMobile"><a href="#photos">Photos</a></li>
-                <li class="menu-button" onclick="showSidebar()"><a class="icon-button bars"><i class="fa-solid fa-bars"></i></a></li>
+                 <li class="menu-button">
+  <a class="icon-button bars" onclick="showSidebar()" aria-label="Open menu">
+    <i class="fa-solid fa-bars"></i>
+  </a>
             </ul>
         </nav>
     </header>
@@ -191,42 +196,61 @@ Read More
         <!-- Photos / Gallery Section -->
         <section id="photos">
             <h2>Photo Gallery</h2>
-         
-          <div class="carousel-container">
-           <ul class="carousel-track">
-            
-                    <li class="carousel-slide">
-                     <picture><source srcset="images/leohoriz.jpeg" media="(orientation: landscape)">
-                      <source srcset="images/IMG_4371.jpeg" media="(orientation: portrait)">
-                      <img src="images/IMG_4371.jpeg" alt="Image 1">
-                     </picture></li>
 
-                     <li class="carousel-slide">
-                      <picture><source srcset="images/shelfhoriz.jpeg" media="(orientation: landscape)">
-                       <source srcset="images/bagclips.jpeg" media="(orientation: portrait)">
-                       <img src="images/bagclips.jpeg" alt="Image 2">
-                      </picture></li>
-                 
-                    <li class="carousel-slide">
-                     <picture><source srcset="images/shelfhoriz.jpeg" media="(orientation: landscape)">
-                      <source srcset="images/graceduo.jpeg" media="(orientation: portrait)">
-                      <img src="images/graceduo.jpeg" alt="Image 3">
-                     </picture></li>
-                    
-                    <li class="carousel-slide">
-                     <picture><source srcset="images/shelfhoriz.jpeg" media="(orientation: landscape)">
-                      <source srcset="images/grace.jpeg" media="(orientation: portrait)">
-                      <img src="images/grace.jpeg" alt="Image 4">
-                     </picture></li>
-                     </ul>
+             <div class="carousel-container">
+  <ul class="carousel-track">
+    <li class="carousel-slide">
+      <picture>
+        <source srcset="images/leohoriz.jpeg" media="(orientation: landscape)">
+        <source srcset="images/IMG_4371.jpeg" media="(orientation: portrait)">
+        <img src="images/IMG_4371.jpeg" alt="Handcrafted wooden pipe on display">
+      </picture>
+    </li>
+
+    <li class="carousel-slide">
+      <picture>
+        <source srcset="images/shelfhoriz.jpeg" media="(orientation: landscape)">
+        <source srcset="images/bagclips.jpeg" media="(orientation: portrait)">
+        <img src="images/bagclips.jpeg" alt="Custom bag clips for kitchen organization">
+      </picture>
+    </li>
+
+    <li class="carousel-slide">
+      <picture>
+        <source srcset="images/shelfhoriz.jpeg" media="(orientation: landscape)">
+        <source srcset="images/graceduo.jpeg" media="(orientation: portrait)">
+        <img src="images/graceduo.jpeg" alt="Pair of handmade wooden shelves">
+      </picture>
+    </li>
+
+    <li class="carousel-slide">
+      <picture>
+        <source srcset="images/shelfhoriz.jpeg" media="(orientation: landscape)">
+        <source srcset="images/grace.jpeg" media="(orientation: portrait)">
+        <img src="images/grace.jpeg" alt="Single handmade wooden shelf">
+      </picture>
+    </li>
+  </ul>
+
+  <div class="carousel-navigation" role="group" aria-label="Slide controls">
+    <button class="carousel-button prev" aria-label="Previous image">
+      <i class="fa-solid fa-chevron-left"></i>
+    </button>
+
+    <div class="carousel-indicators" role="group" aria-label="Slide indicators">
+      <button aria-label="Slide 1" aria-current="true"></button>
+      <button aria-label="Slide 2"></button>
+      <button aria-label="Slide 3"></button>
+      <button aria-label="Slide 4"></button>
+    </div>
+
+    <button class="carousel-button next" aria-label="Next image">
+      <i class="fa-solid fa-chevron-right"></i>
+    </button>
+  </div>
+</div>
+         
            
-                <div class="carousel-navigation">
-                    <button class="carousel-button prev"><i class="fa-solid fa-chevron-left"></i></button>
-                    <div class="carousel-indicators"></div>
-                    <button class="carousel-button next"><i class="fa-solid fa-chevron-right"></i></button>
-                </div>
-            </div>
-        
         </section>
     </main>
 
