@@ -734,13 +734,22 @@ footer .icon-button.pinterest:hover {
     background-color: #005fcc;
   }
 
-
 footer .icon-button {
-  background: rgba(255, 255, 255, 0.15) !important;
+  background: rgba(255, 255, 255, 0.18);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: black; /* or white depending on your footer */
+}
+
+ footer .icon-button:active {
+  transform: scale(0.92);
 }
 
 
