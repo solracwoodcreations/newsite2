@@ -507,11 +507,11 @@ footer .icon-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   text-decoration: none;
   transition: transform 0.3s ease;
 }
@@ -529,7 +529,27 @@ footer .icon-button.phone {
 }
 
 footer .icon-button:hover {
-  transform: scale(1.1);
+  transform: scale(1.15);
+}
+
+footer .icon-button.facebook:hover,
+footer .icon-button.instagram:hover,
+footer .icon-button.youtube:hover,
+footer .icon-button.pinterest:hover {
+  transform: scale(1.15);
+  filter: brightness(1.1);
+}
+
+@media (max-width: 500px) {
+  .footer-icons {
+    gap: 14px;
+  }
+
+  footer .icon-button {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+  }
 }
 
  
@@ -696,6 +716,8 @@ footer .icon-button:hover {
   .signup-form button:hover {
     background-color: #005fcc;
   }
+
+
 
 
 /* .project-sidebar{
