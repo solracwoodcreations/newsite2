@@ -143,7 +143,7 @@ nav a:hover {
 /* Logo */
 
 .logo img {
-  width: auto;
+  width: 100vw;
   height: 50vh;
   display: block;
   margin: 0 auto 1.5rem auto;
