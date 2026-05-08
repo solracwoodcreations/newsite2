@@ -166,29 +166,37 @@ section {
     position: absolute;
     top: 15px;
     right: 20px;
+
+    display: inline-block;
+
     font-family: Georgia, serif;
-}
-
- 
-
-.language-toggle {
     text-decoration: none;
-    color: #2e2a26; /* same text color as body */
+
+    color: #2e2a26;
     font-weight: normal;
-    border: 1px solid #a67c52; /* subtle wood accent */
+
+    border: 1px solid #a67c52;
     padding: 0.25rem 0.6rem;
     border-radius: 4px;
+
     transition: all 0.2s ease;
     font-size: 0.95rem;
 }
 
+/* kill default link styles properly */
+.language-toggle:link,
 .language-toggle:visited {
     color: #2e2a26;
+    text-decoration: none;
 }
 
 .language-toggle:hover {
     background-color: #a67c52;
     color: #fff;
 }
+
+ 
+
+ 
 
  
