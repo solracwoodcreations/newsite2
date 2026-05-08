@@ -34,6 +34,11 @@ h1 .subtitle {
     font-weight: normal; /* optional, so it’s less bold */
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 /* ===== Layout ===== */
 main {
     max-width: 900px;
