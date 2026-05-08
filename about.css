@@ -43,11 +43,16 @@ main {
 
 
 
+
 /* ===== Header ===== */
 header {
+    position: relative;
     text-align: center;
     padding: 25px 0 10px;
 }
+
+
+ 
 
 
 
@@ -158,10 +163,13 @@ section {
 }
 
 .language-toggle {
-    text-align: right;
-    margin-bottom: 1rem;
+    position: absolute;
+    top: 15px;
+    right: 20px;
     font-family: Georgia, serif;
 }
+
+ 
 
 .language-toggle a {
     text-decoration: none;
@@ -172,6 +180,10 @@ section {
     border-radius: 4px;
     transition: all 0.2s ease;
     font-size: 0.95rem;
+}
+
+.language-toggle a:visited {
+    color: #2e2a26;
 }
 
 .language-toggle a:hover {
