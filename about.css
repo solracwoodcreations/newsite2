@@ -46,8 +46,11 @@ main {
 /* ===== Header ===== */
 header {
     text-align: center;
-    padding: 15px 0 5px 0;
+    padding: 25px 0 10px;
 }
+
+
+
 
 header h1 {
     font-size: 2.8rem;
@@ -59,8 +62,8 @@ header h1 {
 h2 {
     font-size: 1.8rem;
     margin-bottom: 20px;
-    border-left: 4px solid #a67c52; /* wood-inspired accent */
-    padding-left: 15px;
+    border-left: 3px solid #a67c52; /* wood-inspired accent */
+    padding-left: 12px;
 }
 
 /* ===== Paragraphs ===== */
