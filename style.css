@@ -264,7 +264,7 @@ main > p {
 
 /* “Read More” button style */
 .button-primary {
-  background-color: #333333;
+  background-color: grey;
   color: #fff;
   padding: 10px 20px;
   border: none;
