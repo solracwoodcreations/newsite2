@@ -171,7 +171,7 @@ section {
 
  
 
-.language-toggle a {
+.language-toggle {
     text-decoration: none;
     color: #2e2a26; /* same text color as body */
     font-weight: normal;
@@ -182,11 +182,11 @@ section {
     font-size: 0.95rem;
 }
 
-.language-toggle a:visited {
+.language-toggle:visited {
     color: #2e2a26;
 }
 
-.language-toggle a:hover {
+.language-toggle:hover {
     background-color: #a67c52;
     color: #fff;
 }
