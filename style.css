@@ -290,9 +290,9 @@ main > p {
 }
 
 .video-container {
-  width: 85vw;          /* 85% of viewport width */
-  max-width: 300px;     /* max width cap */
-  aspect-ratio: 2 / 3;  /* keeps correct shape */
+  width: 70vw;
+  max-width: 700px;
+  aspect-ratio: 4 / 5; 
   margin: 1.5rem auto;
   overflow: hidden;
   border-radius: 12px;
@@ -333,12 +333,7 @@ main > p {
   border: none;
 }
 
-/* Match video sizing to carousel style */
-.video-container {
-  width: 70vw;
-  max-width: 700px;
-  aspect-ratio: 4 / 5;  /* shorter, landscape-friendly shape */
-}
+ 
 
 /* Carousel */
 .carousel-container {
