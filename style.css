@@ -449,7 +449,7 @@ main > p {
 }
 
 /* Responsive nav & sidebar */
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .hideOnMobile {
     display: none;
   }
