@@ -100,13 +100,15 @@ nav a:hover {
   transform: translateX(100%);   /* Start hidden off-screen */
   opacity: 0;                    /* Hidden visually */
   transition: transform 0.3s ease-out, opacity 0.3s ease-out;
-  pointer-events: none;           /* Disable clicks when hidden */
+  pointer-events: none;/* Disable clicks when hidden */
+  visibility: hidden;
 }
 
 .sidebar.active {
   transform: translateX(0);      /* Slide in */
   opacity: 1;                    /* Fade in */
   pointer-events: all;           /* Enable clicks again */
+  visibility: visible;
 }
 
 .sidebar li {
