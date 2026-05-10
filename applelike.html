@@ -139,5 +139,38 @@
   <a href="mailto:test@example.com" class="cta">Contact</a>
 </section>
 
+  <script>
+const sidebar = document.getElementById("sidebar");
+const backdrop = document.getElementById("backdrop");
+const menuBtn = document.getElementById("menuBtn");
+const closeBtn = document.getElementById("closeBtn");
+
+// open
+menuBtn.addEventListener("click", () => {
+  sidebar.classList.add("active");
+  backdrop.classList.add("active");
+});
+
+// close (X button)
+closeBtn.addEventListener("click", () => {
+  sidebar.classList.remove("active");
+  backdrop.classList.remove("active");
+});
+
+// close when clicking outside
+backdrop.addEventListener("click", () => {
+  sidebar.classList.remove("active");
+  backdrop.classList.remove("active");
+});
+
+// close when clicking a link
+document.querySelectorAll(".sidebar a").forEach(link => {
+  link.addEventListener("click", () => {
+    sidebar.classList.remove("active");
+    backdrop.classList.remove("active");
+  });
+});
+</script>
+
 </body>
 </html>
