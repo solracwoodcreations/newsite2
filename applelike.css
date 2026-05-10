@@ -224,3 +224,18 @@ body {
   border: none;
   cursor: pointer;
 }
+
+.video-block {
+  max-width: 900px;
+  margin: 40px auto 0 auto;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+}
+
+.video-block iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+  display: block;
+}
