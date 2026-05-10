@@ -82,14 +82,18 @@ body {
 .carousel-container {
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  display: flex;
+  -webkit-overflow-scrolling: touch;
 }
 
 .carousel-track {
   display: flex;
   gap: 10px;
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
+
+ 
 
 .carousel-slide {
   flex: 0 0 80%;
