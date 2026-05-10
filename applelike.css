@@ -227,50 +227,34 @@ body {
 }
 
 /* video section */
-/* ================= VIDEO SECTION (DARK MODE FIX) ================= */
+/* ================= VIDEO SECTION ================= */
 
-#vlogs.section.dark {
-  padding: 90px 20px;
-}
-
-/* section title */
-#vlogs.section.dark h2 {
-  font-size: 2rem;
-  margin-bottom: 30px;
-  color: #fff;
-  letter-spacing: 0.5px;
-}
-
-/* video container */
 .video-block {
-  max-width: 950px;
-  margin: 0 auto;
+  max-width: 900px;
+  margin: 30px auto 0;
   border-radius: 18px;
   overflow: hidden;
-
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
   background: #000;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.6);
-
-  transform: translateZ(0);
 }
 
-/* responsive video */
+/* makes iframe responsive */
 .video-block iframe {
   width: 100%;
-  aspect-ratio: 16 / 9;
-  border: none;
+  height: 500px;
   display: block;
+  border: none;
 }
 
-/* hover effect */
-.video-block {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+/* responsive tweak for mobile */
+@media (max-width: 768px) {
+  .video-block iframe {
+    height: 260px;
+  }
 }
 
-.video-block:hover {
-  transform: scale(1.01);
-  box-shadow: 0 25px 80px rgba(0,0,0,0.75);
-}
+
+ 
 
  
 
