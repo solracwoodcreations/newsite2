@@ -226,17 +226,24 @@ body {
   cursor: pointer;
 }
 
+/* video section */
+
 .video-block {
-  max-width: 900px;
-  margin: 5px auto 0 auto;
+  width: 100%;
+  margin: 10px 0 0 0;
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+  box-shadow: 0 14px 45px rgba(0,0,0,0.20);
 }
 
 .video-block iframe {
   width: 100%;
   aspect-ratio: 16 / 9;
-  border: none;
   display: block;
 }
+
+.section.dark {
+  padding: 50px 12px;
+}
+
+ 
