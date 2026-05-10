@@ -235,7 +235,8 @@ body {
   background: #000;
   overflow: hidden;
 
-  aspect-ratio: 16 / 9;
+  height: 70vh; /* key: gives it presence without weird ratio issues */
+  max-height: 650px;
 }
 
 .video-block iframe {
@@ -244,6 +245,9 @@ body {
   display: block;
   border: none;
 }
+
+
+ 
 
 
 
