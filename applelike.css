@@ -8,7 +8,6 @@
 body {
   background: #fff;
   color: #111;
-  line-height: 1.5;
 }
 
 /* ================= NAV ================= */
@@ -18,23 +17,16 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 18px 30px;
   background: rgba(255,255,255,0.85);
   backdrop-filter: blur(12px);
   z-index: 1000;
 }
 
-.logo {
-  font-weight: 600;
-  font-size: 16px;
-}
-
 .nav a {
-  margin-left: 18px;
+  margin-left: 15px;
   text-decoration: none;
   color: #111;
-  font-size: 14px;
 }
 
 /* ================= HERO ================= */
@@ -44,167 +36,104 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 0 20px;
+  padding: 20px;
 }
 
-.hero-content h1 {
-  font-size: 2.6rem;
-  font-weight: 600;
+.hero h1 {
+  font-size: 2.5rem;
 }
 
-.hero-content p {
-  margin-top: 12px;
+.hero p {
   color: #555;
 }
 
-.cta {
-  display: inline-block;
-  margin-top: 22px;
-  padding: 12px 22px;
-  background: #111;
-  color: #fff;
-  border-radius: 999px;
-  text-decoration: none;
-}
-
-/* ================= SECTIONS ================= */
-.section {
-  padding: 90px 20px;
-  text-align: center;
-  max-width: 900px;
-  margin: auto;
-}
-
-.section h2 {
-  font-size: 2rem;
-  margin-bottom: 10px;
-}
-
-.section p {
-  color: #555;
-}
-
-/* ================= FEATURE BLOCKS ================= */
-.feature {
+/* ================= STACKED COLLECTIONS ================= */
+.stack {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 40px;
-  padding: 90px 10%;
+  flex-direction: column;
+  gap: 30px;
+  padding: 80px 20px;
 }
 
-.feature img {
-  width: 50%;
+.outer-card {
+  background: #fff;
   border-radius: 18px;
-  object-fit: cover;
+  padding: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
 }
 
-.feature div {
-  width: 50%;
-}
-
-.feature h2 {
-  margin-bottom: 10px;
-}
-
-.feature p {
-  color: #555;
-}
-
-.feature.reverse {
-  flex-direction: row-reverse;
-}
-
-/* ================= SIDE SCROLL (IMPORTANT) ================= */
-.scroll-container {
+.inner-scroll {
   display: flex;
   overflow-x: auto;
-  gap: 16px;
-  padding: 20px;
+  gap: 14px;
   scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
+  padding-bottom: 10px;
 }
 
-/* hide scrollbar */
-.scroll-container::-webkit-scrollbar {
+.inner-scroll::-webkit-scrollbar {
   display: none;
 }
 
-.scroll-item {
-  flex: 0 0 80%;
+.inner-item {
+  flex: 0 0 75%;
   scroll-snap-align: center;
   background: #f5f5f5;
-  border-radius: 16px;
-  padding: 15px;
+  border-radius: 14px;
+  padding: 10px;
   text-align: center;
 }
 
-.scroll-item img {
+.inner-item img {
   width: 100%;
   border-radius: 12px;
-  margin-bottom: 10px;
 }
 
-/* ================= VIDEO ================= */
-.video {
-  margin-top: 30px;
+/* ================= CAROUSEL ================= */
+.gallery-section {
+  padding: 80px 20px;
+  text-align: center;
 }
 
-.video iframe {
+.carousel-container {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  display: flex;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.carousel-slide {
+  flex: 0 0 80%;
+  scroll-snap-align: center;
+}
+
+.carousel-slide img {
   width: 100%;
-  height: 500px;
   border-radius: 16px;
-  border: none;
 }
 
-/* ================= DARK SECTION ================= */
+/* ================= SECTION ================= */
+.section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
 .dark {
   background: #111;
   color: #fff;
 }
 
-/* override text in dark section */
-.dark p {
-  color: #bbb;
-}
-
 /* ================= CTA ================= */
-.cta-section {
-  padding: 100px 20px;
-  text-align: center;
-  background: #f5f5f5;
-}
-
-/* ================= FOOTER ================= */
-.footer {
-  text-align: center;
-  padding: 40px;
-  font-size: 12px;
-  color: #777;
-}
-
-/* ================= MOBILE ================= */
-@media (max-width: 768px) {
-
-  .hero-content h1 {
-    font-size: 2rem;
-  }
-
-  .feature {
-    flex-direction: column;
-    padding: 60px 20px;
-  }
-
-  .feature img,
-  .feature div {
-    width: 100%;
-  }
-
-  .video iframe {
-    height: 300px;
-  }
-
-  .nav {
-    padding: 14px 16px;
-  }
+.cta {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 22px;
+  background: #111;
+  color: #fff;
+  border-radius: 999px;
+  text-decoration: none;
 }
