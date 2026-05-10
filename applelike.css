@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+  color: #111;
+  background: #fff;
+}
+
+/* NAV */
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: rgba(255,255,255,0.8);
+  backdrop-filter: blur(10px);
+}
+
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #111;
+  font-size: 14px;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.cta {
+  padding: 12px 22px;
+  background: black;
+  color: white;
+  border-radius: 999px;
+  text-decoration: none;
+}
+
+/* SECTIONS */
+.section {
+  padding: 100px 20px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.section p {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* FEATURE BLOCKS */
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 100px 10%;
+}
+
+.feature img {
+  width: 50%;
+  border-radius: 20px;
+}
+
+.feature div {
+  width: 50%;
+}
+
+.feature.reverse {
+  flex-direction: row-reverse;
+}
+
+/* DARK SECTION */
+.dark {
+  background: #111;
+  color: white;
+}
+
+.video iframe {
+  width: 100%;
+  height: 500px;
+  border-radius: 20px;
+}
+
+/* GALLERY */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* CTA */
+.cta-section {
+  padding: 120px 20px;
+  text-align: center;
+  background: #f5f5f5;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 40px;
+  font-size: 12px;
+  color: #777;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .feature {
+    flex-direction: column;
+    padding: 60px 20px;
+  }
+
+  .feature img,
+  .feature div {
+    width: 100%;
+  }
+
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
