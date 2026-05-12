@@ -73,7 +73,7 @@ body {
   border-radius: 12px;
 }
 
-/* ================= CAROUSEL ================= */
+/* ================= CAROUSEL ================= 
 .gallery-section {
   padding: 80px 20px;
   text-align: center;
@@ -103,7 +103,7 @@ body {
 .carousel-slide img {
   width: 100%;
   border-radius: 16px;
-}
+} */
 
 /* ================= SECTION ================= */
 .section {
