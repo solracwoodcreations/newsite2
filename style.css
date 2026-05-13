@@ -487,10 +487,10 @@ main > p {
   text-align: center;
   background: #f5f5f5;
 
-  /* border-radius: 12px;
+  border-radius: 12px;
 
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-} */
+} 
 
 .cta h2 {
   margin-bottom: 1rem;
