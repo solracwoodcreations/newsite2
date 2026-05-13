@@ -510,6 +510,17 @@ main > p {
   gap: 20px;
   margin-top: 1rem;
 }
+.cta .icon-button {
+  width: 60px;
+  height: 60px;
+}
+.icon-button {
+  text-decoration: none;
+}
+.icon-button i {
+  line-height: 1;
+  display: block;
+}
 
  
 
