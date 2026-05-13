@@ -516,6 +516,12 @@ main > p {
   align-items: center;
   gap: 10px;
 }
+.footer-divider {
+  width: 80%;
+  height: 1px;
+  background: rgba(0,0,0,0.1);
+  margin: 25px auto;
+}
 
 .connect {
   font-size: 1.5rem;
