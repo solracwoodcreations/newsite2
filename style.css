@@ -477,6 +477,25 @@ main > p {
   display: none;
 } */
 
+
+/* cta */
+
+.cta {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.cta h2 {
+  margin-bottom: 1rem;
+}
+
+.cta p {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
  
 
 /* Footer */
@@ -624,7 +643,9 @@ footer .icon-button.pinterest:hover {
     border-radius: 50%;  /* restore circular image */
     object-fit: cover;
   }
-  h1, h2, p {
+  main h1,
+main h2,
+main p {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
