@@ -500,6 +500,12 @@ main > p {
   margin-bottom: 1.5rem;
   line-height: 1.6;
 }
+.cta-contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 1rem;
+}
 
  
 
@@ -578,7 +584,14 @@ footer .icon-button.pinterest {
   background-color: #E60023; 
 } */
 
-footer .icon-button:hover {
+footer .icon-button.facebook:hover,
+footer .icon-button.instagram:hover,
+footer .icon-button.youtube:hover,
+footer .icon-button.pinterest:hover,
+footer .icon-button.tiktok:hover,
+footer .icon-button.twitter:hover,
+.cta .icon-button.phone:hover,
+.cta .icon-button.envelope:hover {
   transform: scale(1.15);
 }
 
@@ -789,7 +802,8 @@ main p {
 } */
 
 
-footer .icon-button {
+footer .icon-button,
+.cta .icon-button {
   background: rgba(255, 255, 255, 0.20);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
