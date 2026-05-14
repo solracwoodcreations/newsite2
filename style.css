@@ -177,14 +177,16 @@ main > p {
   padding-right: 1.25rem;
 }
 
-.hero {
+
+
+/* .hero {
   min-height: 85vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   padding: 4rem 1.5rem;
-  /*background: #fff; clean white, no overlay, no image */
+  background: #fff; clean white, no overlay, no image 
 }
 
 .hero-content {
