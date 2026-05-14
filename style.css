@@ -183,7 +183,7 @@ main > p {
 }
 
 /* blog */
-#blog {
+#works {
   padding: 2rem 1rem;
 }
 
@@ -229,7 +229,7 @@ main > p {
 
 
 /* blog meta and profile pic */ 
-.blog-meta {
+/* .blog-meta {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -259,11 +259,10 @@ main > p {
   flex-direction: column;
   font-size: 0.9rem;
   line-height: 1.2;
-}
+}*/
 
 /* Blog metadata (author & date) */
-
-.author-name {
+/* .author-name {
   font-weight: bold;
   color: #333;
 }
@@ -271,7 +270,7 @@ main > p {
 .post-date {
   color: #888;
   font-size: 0.85rem;
-}
+}*/
 
 /* “Read More” button style */
 .button-primary {
@@ -632,7 +631,7 @@ footer .icon-button.pinterest:hover {
 
  
 
-.blog-photo {
+/* .blog-photo {
   max-width: 100%;
   height: auto;
   display: block;
@@ -648,11 +647,11 @@ footer .icon-button.pinterest:hover {
 
  
 
-/* Match blog page author section to homepage cards */
+Match blog page author section to homepage cards 
  .blogonly .profile-pic {
    
   padding-bottom: 13px;
-}
+}*/
 
  
 /* Landscape (horizontal phone) adjustments */
@@ -720,44 +719,7 @@ main p {
 }
 }
 
-/* Hero Section */
-.hero {
-  position: relative;
-  width: 100%;
-  height: 100vh; /* full screen height */
-  background-image: url('images/pipehoriz.jpeg'); /* replace with your image */
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.3); /* dark overlay for text readability */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero-overlay h1 {
-  color: white;
-  font-size: 4rem;
-  text-align: center;
-  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
-}
-
-@media (max-width: 768px) {
-  .hero-overlay h1 {
-    font-size: 2.5rem;
-    padding: 0 1rem;
-  }
-}
+ 
 
 .signup-form {
     max-width: 400px;
