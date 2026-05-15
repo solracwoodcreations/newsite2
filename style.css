@@ -75,7 +75,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: lightblue;
+  background-color: #5a4030;
 }
 
 /* Sidebar */
@@ -173,7 +173,7 @@ nav a:hover {
 main {
   text-align: center;
   font-family: inherit;
-  background-color: lightgrey;
+  background-color: #f5f1eb;
   padding-bottom: 0.5em;
   color: black;
 }
@@ -423,7 +423,7 @@ main > p {
 }
 
 .button-primary:hover {
-  background-color: lightgrey;
+  background-color: #7b5e47;
 }
 
  /* Wrapper for each video block (was previously .video) */
@@ -881,7 +881,7 @@ main p {
 
   .signup-form button {
     padding: 12px 20px;
-    background-color: #0077ff;
+    background-color: #3b2a1f;
     color: white;
     border: none;
     border-radius: 6px;
