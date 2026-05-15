@@ -278,7 +278,7 @@ main > p {
 
 
 
-/* .hero-buttons {
+.hero-buttons {
   display: flex;
   gap: 1rem;
   justify-content: center;
@@ -292,6 +292,8 @@ main > p {
   font-weight: 600;
   transition: 0.25s ease;
 }
+
+/*
 
 .primary-btn {
   background: #111;
