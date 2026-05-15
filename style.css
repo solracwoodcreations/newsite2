@@ -293,7 +293,7 @@ main > p {
   transition: 0.25s ease;
 }
 
-/*
+
 
 .primary-btn {
   background: #111;
@@ -315,7 +315,7 @@ main > p {
   background: #111;
   color: #fff;
   transform: translateY(-3px);
-} */
+} 
 
 /* works */
 #works {
