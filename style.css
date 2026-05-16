@@ -317,10 +317,13 @@ main > p {
   transform: translateY(-3px);
 } 
 
-/* works */
-#works {
+/* featured works */
+#featured-work {
   padding: 2rem 1rem;
 }
+
+
+ 
 
 .card {
   background: #fff;
