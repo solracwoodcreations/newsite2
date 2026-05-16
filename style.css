@@ -486,6 +486,7 @@ main > p {
   border: none;
 }
 
+/* feature video in featured card */
 .featured-media {
   display: flex;
   flex-direction: column;
@@ -503,7 +504,11 @@ main > p {
   aspect-ratio: 16 / 9;
   object-fit: cover;
   box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+
+  max-height: 420px;
 }
+
+ 
 
  
 
