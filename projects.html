@@ -1,13 +1,316 @@
-<!DOCTYPE html>
-
+ <!DOCTYPE html>
 <html lang="en">
-
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Opal Woodgrain</title>
+  <link rel="stylesheet" href="applelike.css">
 
-    <meta charset="UTF-8">
+  <!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/d02d164750.js" crossorigin="anonymous"></script>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+<!--<link rel="icon" href="images/opalhoriz.jpg" type="image/jpeg"> -->
 
-    <title>Your Page Title</title>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 
 </head>
+
+<body>
+
+<!-- NAV -->
+
+  <header class="nav">
+  <div class="logo">Opal Woodgrain</div>
+  <button class="menu-btn" id="menuBtn">☰</button>
+</header>
+
+<div class="backdrop" id="backdrop"></div>
+
+<aside class="sidebar" id="sidebar">
+  <button class="close-btn" id="closeBtn">✕</button>
+
+  <a href="#collections">Works</a>
+  <a href="#gallery">Photos</a>
+  <a href="#vlogs">Vlogs</a>
+  <a href="#contact">Contact</a>
+</aside>
+
+  
+  
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Explore custom woodwork, available pieces, and the process behind them.</h1>
+    
+    <p>Browse available works, functional and decorative pieces, and in-progress projects handcrafted by Opal Woodgrain.</p>
+    <a href="#collections" class="cta-btn">Explore</a>
+    
+  </div>
+</section>
+
+<!-- ================= STACKED COLLECTIONS ================= -->
+<section class="stack" id="collections">
+
+  <!-- custom made available pieces functional-->
+  <div class="outer-card">
+    <h2>Available Now</h2>
+    <p>Functional Pieces</p>
+    
+     
+
+    <div class="inner-scroll">
+      <div class="inner-item"><img src="images/img1.jpg"><p>Item 1</p></div>
+      <div class="inner-item"><img src="images/img2.jpg"><p>Item 2</p></div>
+      <div class="inner-item"><img src="images/img3.jpg"><p>Item 3</p></div>
+      <div class="inner-item"><img src="images/img4.jpg"><p>Item 4</p></div>
+      <div class="inner-item"><img src="images/img5.jpg"><p>Item 5</p></div>
+    </div>
+  </div>
+
+  <!-- available pieces decorative-->
+  <div class="outer-card">
+  <!-- <h2>Available Now</h2> -->
+    <p>Decorative Pieces</p>
+    
+     
+
+    <div class="inner-scroll">
+      <div class="inner-item"><img src="images/img1.jpg"><p>Item 1</p></div>
+      <div class="inner-item"><img src="images/img2.jpg"><p>Item 2</p></div>
+      <div class="inner-item"><img src="images/img3.jpg"><p>Item 3</p></div>
+      <div class="inner-item"><img src="images/img4.jpg"><p>Item 4</p></div>
+      <div class="inner-item"><img src="images/img5.jpg"><p>Item 5</p></div>
+    </div>
+  </div>
+
+  <!-- working on now -->
+  <div class="outer-card">
+    <h2>Working On Now</h2>
+    <p>Experimental work</p>
+     
+
+    <div class="inner-scroll">
+      <div class="inner-item"><img src="images/img1.jpg"><p>Item 1</p></div>
+      <div class="inner-item"><img src="images/img2.jpg"><p>Item 2</p></div>
+      <div class="inner-item"><img src="images/img3.jpg"><p>Item 3</p></div>
+      <div class="inner-item"><img src="images/img4.jpg"><p>Item 4</p></div>
+      <div class="inner-item"><img src="images/img5.jpg"><p>Item 5</p></div>
+    </div>
+  </div>
+
+  <!-- sold pieces -->
+  <div class="outer-card">
+    <h2>Sold Pieces</h2>
+    <p>Custom commissions</p>
+    
+     
+
+    <div class="inner-scroll">
+      <div class="inner-item"><img src="images/img1.jpg"><p>Item 1</p></div>
+      <div class="inner-item"><img src="images/img2.jpg"><p>Item 2</p></div>
+      <div class="inner-item"><img src="images/img3.jpg"><p>Item 3</p></div>
+      <div class="inner-item"><img src="images/img4.jpg"><p>Item 4</p></div>
+      <div class="inner-item"><img src="images/img5.jpg"><p>Item 5</p></div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ================= PHOTO GALLERY (RESTORED CAROUSEL) ============= 
+<section id="gallery" class="gallery-section">
+  <h2>Photo Gallery</h2>
+
+  <div class="carousel-container">
+    <ul class="carousel-track">
+
+      <li class="carousel-slide">
+        <img src="images/leohoriz.jpeg" alt="">
+      </li>
+
+      <li class="carousel-slide">
+        <img src="images/graceduo.jpeg" alt="">
+      </li>
+
+      <li class="carousel-slide">
+        <img src="images/grace.jpeg" alt="">
+      </li>
+
+      <li class="carousel-slide">
+        <img src="images/bagclips.jpeg" alt="">
+      </li>
+
+    </ul>
+  </div>
+</section> -->
+
+ <!-- VLOGS -->
+
+  <section id="vlogs" class="section">
+
+  <h2>Process Videos</h2>
+
+  <div class="video-scroll">
+
+    <!-- VIDEO 1 -->
+    <div class="video-card">
+      <div class="video-container">
+        <iframe
+          src="https://player.vimeo.com/video/1111128530"
+          frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p>Pipe carving process</p>
+    </div>
+
+    <!-- VIDEO 2 -->
+    <div class="video-card">
+      <div class="video-container">
+        <iframe
+          src="https://player.vimeo.com/video/1111128530"
+          frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p>Wood finishing</p>
+    </div>
+
+    <!-- VIDEO 3 -->
+    <div class="video-card">
+      <div class="video-container">
+        <iframe
+          src="https://player.vimeo.com/video/1111128530"
+          frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p>Detail sanding</p>
+    </div>
+
+    <!-- VIDEO 4 -->
+    <div class="video-card">
+      <div class="video-container">
+        <iframe
+          src="https://player.vimeo.com/video/1111128530"
+          frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p>Workshop process</p>
+    </div>
+
+    <!-- VIDEO 5 -->
+    <div class="video-card">
+      <div class="video-container">
+        <iframe
+          src="https://player.vimeo.com/video/1111128530"
+          frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p>Final finishing touches</p>
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- CUSTOM CTA (IMPORTANT) -->
+
+<section class="cta">
+
+  <h2>Request a one-of-a-kind piece built for your space</h2>
+
+  <p>
+
+    Looking for handcrafted wooden decor or a one-of-a-kind custom piece? Contact Opal Woodgrain to discuss your ideas.
+
+  </p>
+
+  <div class="cta-contact-icons">
+
+    <a href="tel:1234567890" class="icon-button phone" aria-label="Phone">
+
+      <i class="fas fa-phone"></i>
+
+    </a>
+
+    <a href="mailto:opalwoodgrain@gmail.com" class="icon-button envelope" aria-label="Email">
+
+      <i class="fas fa-envelope"></i>
+
+    </a>
+
+  </div>
+
+</section>
+
+  
+
+   
+
+  
+   
+
+<!-- CONTACT 
+<section id="contact" class="section">
+  <h2>Let’s build something custom</h2>
+  <a href="mailto:test@example.com" class="cta">Contact</a>
+</section> -->
+
+  <!-- end of all collections / sections -->
+
+<section class="newsletter-mini">
+  <h3>Get updates on new handcrafted pieces</h3>
+
+  <form class="signup-form">
+    <input type="email" placeholder="Enter your email" required>
+    <button type="submit">Sign Up</button>
+  </form>
+</section>
+
+  <script>
+const sidebar = document.getElementById("sidebar");
+const backdrop = document.getElementById("backdrop");
+const menuBtn = document.getElementById("menuBtn");
+const closeBtn = document.getElementById("closeBtn");
+
+// open
+menuBtn.addEventListener("click", () => {
+  sidebar.classList.add("active");
+  backdrop.classList.add("active");
+});
+
+// close (X button)
+closeBtn.addEventListener("click", () => {
+  sidebar.classList.remove("active");
+  backdrop.classList.remove("active");
+});
+
+// close when clicking outside
+backdrop.addEventListener("click", () => {
+  sidebar.classList.remove("active");
+  backdrop.classList.remove("active");
+});
+
+// close when clicking a link
+document.querySelectorAll(".sidebar a").forEach(link => {
+  link.addEventListener("click", () => {
+    sidebar.classList.remove("active");
+    backdrop.classList.remove("active");
+  });
+});
+</script>
+
+</body>
+</html>
