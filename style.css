@@ -692,10 +692,13 @@ main > p {
 
 /* Footer */
 .footer {
-  background-color: lightgrey;
-  padding: 20px 0;
+  background: #2d221b;
+  color: #f5f1eb;
+  padding: 50px 0;
   text-align: center;
 }
+
+ 
 
 .footer-content {
   display: flex;
@@ -710,9 +713,16 @@ main > p {
   margin: 25px auto;
 }
 
+.connect,
+.signup-form h2 {
+  color: #f5f1eb;
+}
+
+
+
 .connect {
   font-size: 1.5rem;
-  color: #333;
+  
   margin-bottom: 10px;
 }
 
