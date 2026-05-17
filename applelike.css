@@ -116,6 +116,22 @@ body {
   color: #fff;
 }
 
+/* ================= PRIMARY BUTTON ================= */
+.cta-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 22px;
+  background: #111;
+  color: #fff;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.cta-btn:hover {
+  background: #333;
+}
+
 /* ================= CTA SECTION ================= */
 .cta {
   padding: 80px 20px;
