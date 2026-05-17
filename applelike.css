@@ -116,16 +116,63 @@ body {
   color: #fff;
 }
 
-/* ================= CTA ================= */
+/* ================= CTA SECTION ================= */
 .cta {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 22px;
+  padding: 80px 20px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* CTA heading */
+.cta h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  max-width: 600px;
+  line-height: 1.3;
+}
+
+/* CTA paragraph */
+.cta p {
+  max-width: 600px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* ICON ROW */
+.cta-contact-icons {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* ICON BUTTONS */
+.cta-contact-icons .icon-button {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   background: #111;
   color: #fff;
-  border-radius: 999px;
   text-decoration: none;
+
+  transition: transform 0.2s ease, background 0.2s ease;
 }
+
+.cta-contact-icons .icon-button:hover {
+  transform: translateY(-3px);
+  background: #333;
+}
+
+ 
 
 /* ================= NAV ================= */
 .nav {
