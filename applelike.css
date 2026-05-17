@@ -334,6 +334,56 @@ body {
   display: block;
 }
 
+
+/* ================= NEWSLETTER MINI ================= */
+.newsletter-mini {
+  padding: 80px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  background: #fff;
+}
+
+.newsletter-mini h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  max-width: 500px;
+  line-height: 1.3;
+}
+
+/* form layout */
+.newsletter-mini .signup-form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* input styling */
+.newsletter-mini input[type="email"] {
+  padding: 12px 14px;
+  border-radius: 999px;
+  border: 1px solid #ddd;
+  outline: none;
+  min-width: 240px;
+}
+
+/* button styling */
+.newsletter-mini button {
+  padding: 12px 18px;
+  border-radius: 999px;
+  border: none;
+  background: #111;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.newsletter-mini button:hover {
+  background: #333;
+}
  
 
 
