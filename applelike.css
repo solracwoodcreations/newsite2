@@ -188,9 +188,135 @@ body {
   background: #333;
 }
 
+/* Navigation */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  padding: 8px 20px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+nav ul {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 1rem;
+}
+
+nav li:first-child {
+  margin-right: auto;
+}
+
+nav li {
+  height: 50px;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #5a4030;
+}
+
+/* Sidebar */
+/* Navigation */ 
+ 
+/*
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 10px;
+  background-color: rgba(255, 255, 255, 0.95);
+  overflow-y: auto;
+}
+
+.sidebar.active {
+  display: flex;
+}*/
+/* === ANIMATED SIDEBAR VERSION === */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 10px;
+  background-color: rgba(255, 255, 255, 0.95);
+  overflow-y: auto;
+  transform: translateX(100%);   /* Start hidden off-screen */
+  opacity: 0;                    /* Hidden visually */
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+  pointer-events: none;/* Disable clicks when hidden */
+  
+}
+
+.sidebar.active {
+  transform: translateX(0);      /* Slide in */
+  opacity: 1;                    /* Fade in */
+  pointer-events: auto;           /* Enable clicks again */
+  
+}
+
+.sidebar li {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.sidebar a {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 1.25rem;
+  color: black;
+}
+
+/*.sidebar a:hover {
+  background-color: lightblue;
+}*/
+
+/* Menu button for mobile */
+.menu-button {
+  display: none;
+  cursor: pointer;
+}
+
+/* Align the icon and text horizontally in nav */
+.menu-button a {
+  padding: 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
  
 
-/* ================= NAV ================= */
+/* ================= NAV ================= 
 .nav {
   position: fixed;
   top: 0;
@@ -214,7 +340,7 @@ body {
   background: none;
   border: none;
   cursor: pointer;
-}
+} */
 
 .logo {
   text-decoration: none; /* removes underline */
