@@ -216,6 +216,13 @@ body {
   cursor: pointer;
 }
 
+.logo {
+  text-decoration: none; /* removes underline */
+  color: inherit;        /* keeps your nav color */
+  font-weight: bold;     /* or whatever your style is */
+  font-size: 1.5rem;     /* adjust as needed */
+}
+
 /* ================= BACKDROP ================= */
 .backdrop {
   position: fixed;
