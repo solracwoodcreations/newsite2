@@ -658,7 +658,7 @@ nav a:hover {
 
 /* ================= NEWSLETTER MINI ================= */
 .newsletter-mini {
-  padding: 80px 20px;
+  padding: 40px 10px;
   text-align: center;
   display: flex;
   flex-direction: column;
