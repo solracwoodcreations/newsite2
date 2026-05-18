@@ -137,6 +137,16 @@ nav a:hover {
   color: black;
 }
 
+@media (max-width: 768px) {
+  .hideOnMobile {
+    display: none;
+  }
+
+  .menu-button {
+    display: block;
+  }
+}
+
 
 
 
