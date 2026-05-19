@@ -1,5 +1,5 @@
 /* =========================
-   RESET (match homepage)
+   RESET
 ========================= */
 * {
   margin: 0;
@@ -20,7 +20,7 @@ body {
 }
 
 /* =========================
-   TYPOGRAPHY (MATCH HOMEPAGE)
+   TYPOGRAPHY
 ========================= */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", serif;
@@ -35,7 +35,7 @@ p {
 }
 
 /* =========================
-   NAV (IDENTICAL TO HOMEPAGE)
+   NAV (MATCH HOMEPAGE)
 ========================= */
 nav {
   position: fixed;
@@ -82,7 +82,33 @@ nav a:hover {
 }
 
 /* =========================
-   MAIN LAYOUT (READING FOCUS)
+   HEADER (CENTERED BRAND)
+========================= */
+header {
+  text-align: center;
+  padding: 30px 15px 10px;
+}
+
+header h1 {
+  font-size: 1.9rem;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: #111;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #666;
+  margin-top: 0;
+}
+
+/* =========================
+   MAIN LAYOUT
 ========================= */
 main {
   max-width: 900px;
@@ -92,7 +118,7 @@ main {
 }
 
 /* =========================
-   SECTIONS (SPACING SYSTEM)
+   SECTIONS
 ========================= */
 section {
   margin-bottom: 45px;
@@ -103,7 +129,7 @@ section p {
 }
 
 /* =========================
-   HEADER INTRO (ABOUT PAGE HERO)
+   INTRO SECTION
 ========================= */
 #founder-intro {
   text-align: center;
@@ -111,19 +137,27 @@ section p {
   padding-top: 10px;
 }
 
-#founder-intro img {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #eee;
-  margin: 0 auto 18px;
-  display: block;
-}
-
 #founder-title {
   font-size: 1.5rem;
   margin-bottom: 10px;
+  text-align: center;
+}
+
+/* IMAGE — STICKER STYLE (NO CIRCLE) */
+#founder-intro img {
+  width: 80vw;
+  max-width: 420px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+
+  border-radius: 12px; /* sticker feel */
+  object-fit: cover;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+  border: none;
+
+  transform: rotate(-0.3deg); /* subtle handmade feel */
 }
 
 /* =========================
@@ -147,21 +181,15 @@ li {
 }
 
 /* =========================
-   ABOUT PAGE IMAGE (SUBJECT)
-========================= */
-#founder-intro img {
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-}
-
-/* =========================
-   LINK STYLE (LIGHT TOUCH)
+   LINKS
 ========================= */
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 /* =========================
-   FOOTER (MATCH HOMEPAGE FEEL)
+   FOOTER
 ========================= */
 footer {
   text-align: center;
@@ -181,11 +209,19 @@ footer {
   }
 
   #founder-intro img {
-    width: 140px;
-    height: 140px;
+    width: 85vw;
+    max-width: 320px;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
   }
 
   h2 {
     font-size: 1.15rem;
   }
 }
+
+
+
+ 
