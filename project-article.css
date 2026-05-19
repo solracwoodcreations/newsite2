@@ -191,9 +191,17 @@ main {
 
 @media (max-width: 400px) {
   .sidebar {
-    width: 75%;
+    width: 41%;
+    height: 50%;
   }
 }
+
+
+/*@media (max-width: 400px) {
+  .sidebar {
+    width: 75%;
+  }
+} */
 
  
 
