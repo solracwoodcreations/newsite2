@@ -1,15 +1,4 @@
- :root {
-  --bg: #fafafa;
-  --text: #222;
-  --muted: #666;
-  --accent: #5a4030;
-  --border: #e5e5e5;
-  --max-width: 800px;
-}
-
-/* =========================
-   RESET
-========================= */
+/* ================= RESET ================= */
 
 * {
   margin: 0;
@@ -17,60 +6,82 @@
   box-sizing: border-box;
 }
 
-html {
-  -webkit-text-size-adjust: 100%;
-}
-
 body {
-  font-family: Arial, sans-serif;
-  background: var(--bg);
-  color: var(--text);
-  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+  color: #111;
+  background: #fff;
+  line-height: 1.6;
+  padding-top: 70px; /* space for fixed nav */
 }
 
-/* =========================
-   NAV
-========================= */
+/* ================= HEADINGS ================= */
+
+h1, h2, h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  text-align: center;
+  color: #444;
+  font-weight: 400;
+}
+
+/* ================= NAVIGATION ================= */
 
 nav {
   position: fixed;
   top: 0;
-  left: 0;
-  right: 0;
-  background: white;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-  z-index: 1000;
-  padding: 0 12px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
 }
 
 nav ul {
   display: flex;
-  align-items: center;
   list-style: none;
-  min-height: 65px;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 nav li:first-child {
   margin-right: auto;
 }
 
+nav li {
+  height: 50px;
+}
+
 nav a {
-  text-decoration: none;
-  color: black;
-  padding: 0 14px;
   display: flex;
   align-items: center;
-  height: 65px;
-  font-weight: 600;
+  height: 100%;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #111;
+  transition: 0.3s ease;
 }
 
 nav a:hover {
-  background: #f3f3f3;
+  background: #5a4030;
+  color: #fff;
 }
 
-/* =========================
-   SIDEBAR
-========================= */
+/* ================= SIDEBAR ================= */
 
 .sidebar {
   position: fixed;
@@ -78,32 +89,87 @@ nav a:hover {
   right: 0;
   width: 260px;
   height: 100vh;
-  background: rgba(255,255,255,0.98);
+  background: rgba(255,255,255,0.97);
+  backdrop-filter: blur(10px);
+
   display: flex;
   flex-direction: column;
-  padding-top: 1rem;
+  padding-top: 20px;
+
   transform: translateX(100%);
+  opacity: 0;
+  pointer-events: none;
+
   transition: 0.3s ease;
-  z-index: 2000;
+  z-index: 1000;
 }
 
 .sidebar.active {
   transform: translateX(0);
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .sidebar li {
-  width: 100%;
+  margin-bottom: 15px;
 }
 
 .sidebar a {
-  width: 100%;
-  padding: 1rem 1.5rem;
-  height: auto;
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  color: #111;
 }
+
+/* ================= MENU BUTTON ================= */
 
 .menu-button {
   display: none;
 }
+
+/* ================= BLOG CONTENT ================= */
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* text block */
+.pblog p {
+  margin-bottom: 1.2rem;
+  font-size: 1.05rem;
+  color: #333;
+}
+
+/* image */
+.blog-photo {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+/* materials section */
+#materials {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #f7f7f7;
+  border-radius: 12px;
+}
+
+#materials ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+#materials li {
+  margin-bottom: 0.5rem;
+}
+
+/* ================= RESPONSIVE ================= */
 
 @media (max-width: 768px) {
   .hideOnMobile {
@@ -115,103 +181,13 @@ nav a:hover {
   }
 
   nav a {
-    padding: 0 10px;
-  }
-
-  nav {
-    padding: 0 8px;
+    padding: 0 12px;
   }
 }
 
-/* =========================
-   MAIN CONTENT
-========================= */
-
-main {
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 110px 1.25rem 3rem;
-}
-
-main h1 {
-  font-size: 2rem;
-  margin-bottom: 0.75rem;
-  line-height: 1.2;
-}
-
-main h2 {
-  font-size: 1.1rem;
-  color: var(--muted);
-  font-weight: 400;
-  margin-bottom: 2rem;
-  line-height: 1.5;
-}
-
-/* =========================
-   BLOG CONTENT
-========================= */
-
-.pblog p {
-  margin-bottom: 1.5rem;
-  line-height: 1.8;
-  font-size: 1rem;
-}
-
-.pblog strong {
-  color: var(--accent);
-}
-
-/* =========================
-   IMAGE
-========================= */
-
-.blog-photo {
-  width: 100%;
-  display: block;
-  border-radius: 8px;
-  margin: 2rem 0;
-}
-
-/* =========================
-   MATERIALS SECTION
-========================= */
-
-#materials {
-  margin-top: 3rem;
-}
-
-#materials h2 {
-  color: black;
-  font-size: 1.4rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-}
-
-#materials ul {
-  background: #111;
-  color: #f2f2f2;
-  padding: 1.5rem;
-  border-radius: 8px;
-  list-style: none;
-}
-
-#materials li {
-  margin-bottom: 0.75rem;
-  line-height: 1.6;
-}
-
-#materials strong {
-  color: #d8b47a;
-}
-
-/* =========================
-   MOBILE LANDSCAPE IMAGE
-========================= */
-
-@media (orientation: landscape) and (max-width: 900px) {
-  .blog-photo {
-    height: 75vh;
-    object-fit: contain;
+@media (max-width: 400px) {
+  .sidebar {
+    width: 75%;
   }
 }
 
