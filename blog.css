@@ -25,6 +25,7 @@ html {
 
 html, body {
   height: 100%;
+   overflow-x: hidden;
 }
 
 body {
@@ -34,7 +35,7 @@ body {
   line-height: var(--line-height);
   font-size: 1rem;
   -webkit-font-smoothing: antialiased;
-  /* padding: 0 1rem; */
+  padding: 0;
 }
 
 /* ================================
