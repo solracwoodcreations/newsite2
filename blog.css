@@ -521,6 +521,24 @@ footer {
   margin-bottom: 0.5rem;
 }
 
+@media (max-width: 768px) {
+  nav {
+    padding: 8px 12px;
+  }
+
+  nav a {
+    padding: 0 16px;
+  }
+
+  nav li:first-child a {
+    padding-left: 4px;
+  }
+
+  .menu-button a {
+    padding-right: 4px;
+  }
+}
+
  
 
  
