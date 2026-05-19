@@ -38,6 +38,139 @@ body {
 }
 
 /* ================================
+   NAVIGATION (HOMEPAGE MATCH)
+=================================== */
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  padding: 8px 20px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+nav ul {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 1rem;
+}
+
+nav li:first-child {
+  margin-right: auto;
+}
+
+nav li {
+  height: 50px;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #5a4030;
+}
+
+/* ================================
+   SIDEBAR (MOBILE MENU)
+=================================== */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 10px;
+  background-color: rgba(255, 255, 255, 0.95);
+  overflow-y: auto;
+  transform: translateX(100%);
+  opacity: 0;
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.sidebar.active {
+  transform: translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.sidebar li {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.sidebar a {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 1.25rem;
+  color: black;
+}
+
+/* ================================
+   MENU BUTTON
+=================================== */
+
+.menu-button {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-button a {
+  padding: 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+/* ================================
+   RESPONSIVE NAV
+=================================== */
+
+@media (max-width: 768px) {
+  .hideOnMobile {
+    display: none;
+  }
+
+  .menu-button {
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
+  .sidebar {
+    width: min(250px, 70vw);
+    height: 100vh;
+  }
+}
+
+
+
+
+
+/* ================================
    HEADER
 =================================== */
 
