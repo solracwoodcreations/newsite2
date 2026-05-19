@@ -658,6 +658,77 @@ nav a:hover {
 
 /* ================= NEWSLETTER MINI ================= */
 .newsletter-mini {
+  padding: 20px 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+}
+
+.newsletter-mini h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  max-width: 420px;
+  line-height: 1.2;
+}
+
+/* form layout */
+.newsletter-mini .signup-form {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* input styling */
+.newsletter-mini input[type="email"] {
+  padding: 9px 12px;
+  border-radius: 999px;
+  border: 1px solid #ddd;
+  outline: none;
+  min-width: 200px;
+}
+
+/* button styling */
+.newsletter-mini button {
+  padding: 9px 14px;
+  border-radius: 999px;
+  border: none;
+  background: #111;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.newsletter-mini button:hover {
+  background: #333;
+}
+
+/* mobile tightening */
+@media (max-width: 480px) {
+  .newsletter-mini {
+    padding: 14px 8px;
+    gap: 6px;
+  }
+
+  .newsletter-mini h3 {
+    font-size: 1rem;
+    max-width: 300px;
+  }
+
+  .newsletter-mini input[type="email"] {
+    min-width: 160px;
+  }
+
+  .newsletter-mini button {
+    padding: 8px 12px;
+  }
+}
+
+
+/* .newsletter-mini {
   padding: 40px 10px;
   text-align: center;
   display: flex;
@@ -675,24 +746,24 @@ nav a:hover {
 }
 
 /* form layout */
-.newsletter-mini .signup-form {
+/* .newsletter-mini .signup-form {
   display: flex;
   gap: 10px;
   justify-content: center;
   flex-wrap: wrap;
-}
+} */
 
 /* input styling */
-.newsletter-mini input[type="email"] {
+/* .newsletter-mini input[type="email"] {
   padding: 12px 14px;
   border-radius: 999px;
   border: 1px solid #ddd;
   outline: none;
   min-width: 240px;
-}
+} */
 
 /* button styling */
-.newsletter-mini button {
+/*.newsletter-mini button {
   padding: 12px 18px;
   border-radius: 999px;
   border: none;
@@ -704,7 +775,7 @@ nav a:hover {
 
 .newsletter-mini button:hover {
   background: #333;
-}
+} */
  
 
 
