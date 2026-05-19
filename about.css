@@ -1,0 +1,191 @@
+/* =========================
+   RESET (match homepage)
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  padding-top: 70px;
+  font-family: 'Inter', sans-serif;
+  background: #fff;
+  color: #111;
+  min-height: 100vh;
+}
+
+/* =========================
+   TYPOGRAPHY (MATCH HOMEPAGE)
+========================= */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  color: #111;
+}
+
+p {
+  line-height: 1.6;
+  color: #333;
+}
+
+/* =========================
+   NAV (IDENTICAL TO HOMEPAGE)
+========================= */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  padding: 8px 20px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+nav ul {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav li:first-child {
+  margin-right: auto;
+}
+
+nav li {
+  height: 50px;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #5a4030;
+}
+
+/* =========================
+   MAIN LAYOUT (READING FOCUS)
+========================= */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 16px 80px;
+  text-align: left;
+}
+
+/* =========================
+   SECTIONS (SPACING SYSTEM)
+========================= */
+section {
+  margin-bottom: 45px;
+}
+
+section p {
+  margin-bottom: 14px;
+}
+
+/* =========================
+   HEADER INTRO (ABOUT PAGE HERO)
+========================= */
+#founder-intro {
+  text-align: center;
+  margin-bottom: 60px;
+  padding-top: 10px;
+}
+
+#founder-intro img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #eee;
+  margin: 0 auto 18px;
+  display: block;
+}
+
+#founder-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* =========================
+   HEADINGS
+========================= */
+h2 {
+  font-size: 1.35rem;
+  margin-bottom: 10px;
+}
+
+/* =========================
+   LISTS
+========================= */
+ul {
+  padding-left: 18px;
+}
+
+li {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* =========================
+   ABOUT PAGE IMAGE (SUBJECT)
+========================= */
+#founder-intro img {
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+/* =========================
+   LINK STYLE (LIGHT TOUCH)
+========================= */
+a {
+  color: inherit;
+}
+
+/* =========================
+   FOOTER (MATCH HOMEPAGE FEEL)
+========================= */
+footer {
+  text-align: center;
+  padding: 30px 10px;
+  font-size: 0.85rem;
+  color: #777;
+  border-top: 1px solid #eee;
+}
+
+/* =========================
+   MOBILE
+========================= */
+@media (max-width: 600px) {
+
+  main {
+    padding: 20px 12px 70px;
+  }
+
+  #founder-intro img {
+    width: 140px;
+    height: 140px;
+  }
+
+  h2 {
+    font-size: 1.15rem;
+  }
+}
