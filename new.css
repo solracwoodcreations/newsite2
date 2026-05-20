@@ -485,7 +485,8 @@ main > p {
 }
 
 .footer {
-  background: #D8C3A5;
+  /*background: #D8C3A5;*/
+  background: linear-gradient(135deg, #D8C3A5, #c9ae8b);
   color: #f5f1eb;
   padding: 50px 0;
   text-align: center;
