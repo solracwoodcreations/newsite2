@@ -1,4 +1,4 @@
-/* =========================
+ /* =========================
    RESET + BASE
 ========================= */
 
@@ -10,6 +10,7 @@
 
 html {
   -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -18,34 +19,37 @@ body {
   background-color: #fff;
   color: #111;
   padding-top: 70px;
+  overflow-x: hidden;
 }
 
 /* Typography */
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", serif;
   font-weight: 600;
   letter-spacing: 0.2px;
   color: #111;
-  margin-bottom: 0.75rem;
 }
 
 p {
   line-height: 1.6;
-  margin-bottom: 1rem;
 }
 
-/* Layout system */
+/* =========================
+   MAIN LAYOUT
+========================= */
+
 main {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 16px;
   text-align: center;
+  font-family: inherit;
+  background-color: #f5f1eb;
+  padding-bottom: 0.5em;
+  color: black;
 }
 
-/* Sections spacing */
-section {
-  margin: 3rem 0;
-  scroll-margin-top: 80px;
+main > p {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 /* =========================
@@ -57,7 +61,7 @@ nav {
   top: 0;
   width: 100%;
   background-color: #fff;
-  box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   z-index: 999;
   display: flex;
   align-items: center;
@@ -108,7 +112,7 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   padding-top: 10px;
-  background-color: rgba(255,255,255,0.95);
+  background-color: rgba(255, 255, 255, 0.95);
   transform: translateX(100%);
   opacity: 0;
   pointer-events: none;
@@ -123,10 +127,12 @@ nav a:hover {
 }
 
 .sidebar li {
+  width: 100%;
   margin-bottom: 15px;
 }
 
 .sidebar a {
+  width: 100%;
   padding: 10px 20px;
   font-size: 1.25rem;
   color: black;
@@ -156,7 +162,7 @@ nav a:hover {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.35);
+  background: rgba(0, 0, 0, 0.35);
 }
 
 .hero-content {
@@ -176,7 +182,10 @@ nav a:hover {
   opacity: 0.95;
 }
 
-/* Buttons */
+/* =========================
+   BUTTONS
+========================= */
+
 .hero-buttons {
   display: flex;
   gap: 1rem;
@@ -203,7 +212,7 @@ nav a:hover {
 }
 
 /* =========================
-   FEATURED CARD
+   CARDS
 ========================= */
 
 .card {
@@ -214,7 +223,6 @@ nav a:hover {
   max-width: 700px;
   width: 90vw;
   padding: 1.5rem;
-  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .featured-card {
@@ -222,17 +230,16 @@ nav a:hover {
   border: 2px solid #7b5e47;
 }
 
-.card:hover {
-  transform: translateY(-5px);
-}
-
 .card img {
   width: 100%;
+  height: auto;
   border-radius: 4px;
-  margin-bottom: 1rem;
 }
 
-/* Featured media */
+/* =========================
+   FEATURED MEDIA
+========================= */
+
 .featured-media {
   display: flex;
   flex-direction: column;
@@ -242,7 +249,7 @@ nav a:hover {
 .featured-video video {
   width: 100%;
   border-radius: 8px;
-  aspect-ratio: 16/9;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
 }
 
@@ -253,10 +260,10 @@ nav a:hover {
 .video-container {
   width: 70vw;
   max-width: 700px;
-  aspect-ratio: 4/5;
+  aspect-ratio: 4 / 5;
   margin: 1.5rem auto;
-  border-radius: 12px;
   overflow: hidden;
+  border-radius: 12px;
   background: #000;
 }
 
@@ -293,11 +300,13 @@ nav a:hover {
 
 .footer-icons {
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
 }
 
 /* =========================
-   ICON BUTTONS
+   ICON BUTTONS (GLASS STYLE PRESERVED)
 ========================= */
 
 .icon-button {
@@ -309,8 +318,14 @@ nav a:hover {
   justify-content: center;
   text-decoration: none;
   color: white;
+
   background: rgba(255,255,255,0.2);
   backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255,255,255,0.35);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+
   transition: transform 0.2s ease;
 }
 
@@ -318,34 +333,17 @@ nav a:hover {
   transform: scale(1.15);
 }
 
-/* Social brand colors */
-footer .icon-button.facebook {
-  background-color: #1877F2;
-}
+/* Social colors (restored) */
 
+footer .icon-button.facebook { background: #1877F2; }
 footer .icon-button.instagram {
   background: radial-gradient(circle at 30% 107%,
-    #fdf497 0%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285AEB 90%);
+    #fdf497 0%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
 }
-
-footer .icon-button.youtube {
-  background-color: #ff0000;
-}
-
-footer .icon-button.pinterest {
-  background-color: #E60023;
-}
-
-footer .icon-button.tiktok {
-  background-color: #000;
-}
-
-footer .icon-button.twitter {
-  background-color: #000;
-}
+footer .icon-button.youtube { background: #ff0000; }
+footer .icon-button.pinterest { background: #E60023; }
+footer .icon-button.tiktok { background: #000; }
+footer .icon-button.twitter { background: #000; }
 
 /* =========================
    FORM
@@ -356,7 +354,7 @@ footer .icon-button.twitter {
   margin: 20px auto;
   padding: 20px;
   border-radius: 12px;
-  background: #f2f2f2;
+  background-color: #f2f2f2;
   text-align: center;
 }
 
@@ -368,7 +366,7 @@ footer .icon-button.twitter {
 
 .signup-form button {
   padding: 12px 20px;
-  background: #3b2a1f;
+  background-color: #3b2a1f;
   color: white;
   border: none;
   border-radius: 6px;
@@ -391,15 +389,5 @@ footer .icon-button.twitter {
 @media (max-width: 400px) {
   .sidebar {
     width: 70vw;
-  }
-}
-
-@media screen and (orientation: landscape) and (max-width: 900px) {
-  .card {
-    max-width: 90vw;
-  }
-
-  .video-container {
-    max-width: 90vw;
   }
 }
