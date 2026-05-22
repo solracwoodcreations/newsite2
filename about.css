@@ -150,7 +150,7 @@ section p {
 }
 
 #founder-title {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   margin-bottom: 10px;
   text-align: center;
 }
@@ -175,10 +175,10 @@ section p {
 /* =========================
    HEADINGS
 ========================= */
-h2 {
+/* h2 {
   font-size: 1.35rem;
   margin-bottom: 10px;
-}
+} */
 
 /* =========================
    LISTS
