@@ -126,10 +126,11 @@ nav a:hover {
   font-size: 1.25rem;
   color: black;
 }
+.sidebar a {
+  -webkit-tap-highlight-color: transparent;
+}
 
-/*.sidebar a:hover {
-  background-color: lightblue;
-}*/
+ 
 
 /* Menu button for mobile */
 .menu-button {
