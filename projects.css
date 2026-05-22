@@ -182,9 +182,11 @@ nav a:hover {
     color: black;
 }
 
-/*.hero h1 {
-  font-size: ;
-}*/
+.hero h1 {
+  font-size: 3rem; /* intentional exception */
+}
+
+ 
 
 .hero p {
   color: #000;
