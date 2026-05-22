@@ -42,7 +42,7 @@ h2 {
 
 /* ================= NAVIGATION ================= */
 
-nav {
+/* nav {
   position: fixed;
   top: 0;
   width: 100%;
@@ -83,11 +83,11 @@ nav a {
 nav a:hover {
   background: #5a4030;
   color: #fff;
-}
+} */
 
 /* ================= SIDEBAR ================= */
 
-.sidebar {
+/* .sidebar {
   position: fixed;
   top: 0;
   right: 0;
@@ -122,13 +122,13 @@ nav a:hover {
   padding: 12px 20px;
   font-size: 1.2rem;
   color: #111;
-}
+} */
 
 /* ================= MENU BUTTON ================= */
 
-.menu-button {
+/*.menu-button {
   display: none;
-}
+} */
 
 /* ================= BLOG CONTENT ================= */
 
@@ -175,7 +175,7 @@ main {
 
 /* ================= RESPONSIVE ================= */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .hideOnMobile {
     display: none;
   }
@@ -194,7 +194,7 @@ main {
     width: 41%;
     height: 50%;
   }
-}
+} */
 
 
 /*@media (max-width: 400px) {
