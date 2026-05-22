@@ -88,9 +88,64 @@ nav a:hover {
   background-color: #5a4030;
 }
 
- 
+/* === ANIMATED SIDEBAR VERSION === */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 10px;
+  background-color: rgba(255, 255, 255, 0.95);
+  overflow-y: auto;
+  transform: translateX(100%);   /* Start hidden off-screen */
+  opacity: 0;                    /* Hidden visually */
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+  pointer-events: none;/* Disable clicks when hidden */
+  
+}
 
- 
+.sidebar.active {
+  transform: translateX(0);      /* Slide in */
+  opacity: 1;                    /* Fade in */
+  pointer-events: auto;           /* Enable clicks again */
+  
+}
+
+.sidebar li {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.sidebar a {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 1.25rem;
+  color: black;
+}
+
+/*.sidebar a:hover {
+  background-color: lightblue;
+}*/
+
+/* Menu button for mobile */
+.menu-button {
+  display: none;
+  cursor: pointer;
+}
+
+/* Align the icon and text horizontally in nav */
+.menu-button a {
+  padding: 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
 @media (max-width: 768px) {
   .hideOnMobile {
     display: none;
@@ -100,6 +155,10 @@ nav a:hover {
     display: block;
   }
 }
+
+ 
+
+  
 
 
 /* Headings */
