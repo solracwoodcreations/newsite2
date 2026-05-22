@@ -102,7 +102,7 @@ header {
 }
 
 header h1 {
-  font-size: 1.9rem;
+  /* font-size: 1.9rem; */
   text-align: center;
   margin-bottom: 6px;
 }
