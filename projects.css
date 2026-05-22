@@ -177,15 +177,14 @@ nav a:hover {
 }
 
 .hero h1 {
+  line-height: 1.2;
   font-size: 2.5rem;
   margin-bottom: 1rem;
     color: black;
   
 }
 
-.hero-content h1 {
-  line-height: 1.2;
-}
+ 
 
  
 
