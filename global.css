@@ -215,3 +215,27 @@ a {
 section {
   scroll-margin-top: 80px;
 }
+
+
+
+/* makes NAV look like desktop in landscape mode */
+@media (min-width: 768px) {
+
+  nav ul {
+    justify-content: space-between;
+    padding: 0 40px;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .hideOnMobile {
+    display: inline-block;
+  }
+
+  .sidebar {
+    display: none !important;
+  }
+
+}
