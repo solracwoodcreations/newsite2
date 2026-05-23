@@ -78,14 +78,15 @@ main > p {
 
 
 
-.hero-buttons {
+/* projects button */
+.cta-buttons {
   display: flex;
   gap: 1rem;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.hero-btn {
+.cta-btn {
   padding: 12px 24px;
   border-radius: 999px;
   text-decoration: none;
@@ -105,7 +106,7 @@ main > p {
   background: #333;
 }
 
-.secondary-btn {
+/* .secondary-btn {
   border: 1px solid #111;
   color: #111;
   background: transparent;
@@ -115,7 +116,7 @@ main > p {
   background: #111;
   color: #fff;
   transform: translateY(-3px);
-} 
+} */
 
 /* featured works */
 #featured-work {
@@ -174,7 +175,7 @@ main > p {
  
 
 /* “Read More” button style */
-.button-primary {
+/* .button-primary {
   background-color: #7b5e47;
   color: #fff;
   padding: 10px 20px;
@@ -192,7 +193,7 @@ main > p {
 
 .button-primary:hover {
   background-color: #7b5e47;
-}
+} */
 
  /* Wrapper for each video block (was previously .video) */
 .video-block {
