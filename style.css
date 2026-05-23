@@ -26,10 +26,9 @@
 /* Main content */
 main {
   text-align: center;
-  font-family: inherit;
-  /* background-color: #f5f1eb; */
+   
   padding-bottom: 0.5em;
-  color: black;
+   
 }
 
 main h1 {
