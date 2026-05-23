@@ -235,6 +235,12 @@ nav a:hover {
   border-radius: 12px;
 }
 
+.inner-item {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 /* ================= CAROUSEL ================= 
 .gallery-section {
   padding: 80px 20px;
