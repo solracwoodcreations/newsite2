@@ -429,6 +429,8 @@ main > p {
   margin-bottom: 1.5rem;
   line-height: 1.6;
 }
+
+/* mail & phone icon buttons */
 .cta-contact-icons {
   display: flex;
   justify-content: center;
@@ -613,13 +615,13 @@ Match blog page author section to homepage cards
 }
 
   
-  .profile-pic img {
+  /*.profile-pic img {
     width: 35px;
     height: 35px;
     border-radius: 50%;  /* restore circular image */
-    object-fit: cover;
-  }
-  main h1,
+    /*object-fit: cover;
+  } */
+ /* main h1,
 main h2,
 main p {
     padding-left: 0.5rem;
@@ -648,7 +650,7 @@ main p {
     max-width: 90vw;
     max-height: 85vh;
     aspect-ratio: 16 / 9; /* makes it fit nicely like the carousel */
-  }
+/* } */
 
   .sidebar {
   /*width: 15%;*/
