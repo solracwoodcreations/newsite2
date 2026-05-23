@@ -1,6 +1,23 @@
 /* =========================
-   RESET
+   DESIGN TOKENS
 ========================= */
+:root {
+  /* Background */
+  --color-bg: #E6DED6;
+
+  /* Text */
+  --color-text: #111111;
+  --color-text-light: #444444;
+  --color-heading: #111111;
+
+  /* Accent */
+  --color-accent: #7b5e47;
+
+  /* Utilities */
+  --color-border: rgba(0, 0, 0, 0.1);
+  --color-shadow: rgba(0, 0, 0, 0.1);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -27,22 +44,7 @@ html {
 /* =========================
    DESIGN TOKENS
 ========================= */
-:root {
-  /* Background */
-  --color-bg: #E6DED6;
 
-  /* Text */
-  --color-text: #111111;
-  --color-text-light: #444444;
-  --color-heading: #111111;
-
-  /* Accent */
-  --color-accent: #7b5e47;
-
-  /* Utilities */
-  --color-border: rgba(0, 0, 0, 0.1);
-  --color-shadow: rgba(0, 0, 0, 0.1);
-}
 
 /* =========================
    BASE TYPOGRAPHY
