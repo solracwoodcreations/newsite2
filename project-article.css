@@ -157,7 +157,7 @@ main {
 }
 
 /* materials section */
-#materials {
+/* #materials {
   margin-top: 3rem;
   padding: 2rem;
   background: #f7f7f7;
@@ -171,7 +171,7 @@ main {
 
 #materials li {
   margin-bottom: 0.5rem;
-}
+} */
 
 /* ================= RESPONSIVE ================= */
 
