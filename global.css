@@ -103,6 +103,13 @@ nav a {
   background-color: #5a4030;
 } */
 
+nav button {
+  border: none;
+  background: none;
+  font: inherit;
+  cursor: pointer;
+}
+
 /* === ANIMATED SIDEBAR VERSION === */
 .sidebar {
   position: fixed;
@@ -154,7 +161,7 @@ nav a {
 }
 
 /* Align the icon and text horizontally in nav */
-.menu-button a {
+.menu-button button {
   padding: 0;
   height: 50px;
   display: flex;
