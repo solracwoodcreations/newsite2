@@ -152,6 +152,22 @@ nav button {
   -webkit-tap-highlight-color: transparent;
 }
 
+.menu-button button,
+.menu-button button i,
+.sidebar button,
+.sidebar button i {
+  color: black;
+}
+
+.menu-button button,
+.sidebar button {
+  appearance: none;
+  -webkit-appearance: none;
+
+  border: none;
+  background: transparent;
+}
+
  
 
 /* Menu button for mobile */
