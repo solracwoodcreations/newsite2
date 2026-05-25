@@ -168,6 +168,11 @@ nav button {
   background: transparent;
 }
 
+.sidebar button,
+.sidebar button i {
+  color: black;
+}
+
  
 
 /* Menu button for mobile */
