@@ -67,12 +67,14 @@ main > p {
   }
 
 .hero p {
-  font-size: clamp(1rem, 2vw, 1.25rem);
-  line-height: 1.6;
   opacity: 0.95;
   margin-bottom: 2rem;
   color: white;
+  max-width: 700px;
+  margin-inline: auto;
 }
+
+ 
 
  
 
@@ -164,8 +166,7 @@ main > p {
 }
 
 .card p {
-  font-size: 1rem;
-  line-height: 1.5;
+   
   color: #444;
   margin-bottom: 1rem;
   
@@ -427,7 +428,7 @@ main > p {
 
 .cta p {
   margin-bottom: 1.5rem;
-  line-height: 1.6;
+  
 }
 
 /* mail & phone icon buttons */
