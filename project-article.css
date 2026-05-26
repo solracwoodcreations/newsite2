@@ -1,15 +1,17 @@
- 
+ body {
+  padding-top: 60px; /* same as navbar height */
+}
 
 /* ================= HEADINGS ================= */
 
-/* h1, h2, h3 {
+h1, h2, h3 {
   font-family: "Playfair Display", serif;
   font-weight: 600;
   color: #111;
   margin-bottom: 0.5rem;
-} */
+} 
 
-/* h1 {
+h1 {
   font-size: clamp(2rem, 4vw, 3rem);
   text-align: center;
   margin-top: 2rem;
@@ -20,7 +22,7 @@ h2 {
   text-align: center;
   color: #444;
   font-weight: 400;
-} */
+} 
 
 /* ================= NAVIGATION ================= */
 
