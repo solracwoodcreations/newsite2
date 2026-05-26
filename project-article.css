@@ -1,22 +1,4 @@
-/* ================= RESET ================= */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  -webkit-text-size-adjust: 100%; /* Prevent iPhone landscape text enlargement */
-}
-
-body {
-  font-family: 'Inter', sans-serif;
-  color: #111;
-  
-  line-height: 1.6;
-  padding-top: 70px; /* space for fixed nav */
-}
+ 
 
 /* ================= HEADINGS ================= */
 
@@ -27,7 +9,7 @@ body {
   margin-bottom: 0.5rem;
 } */
 
-h1 {
+/* h1 {
   font-size: clamp(2rem, 4vw, 3rem);
   text-align: center;
   margin-top: 2rem;
@@ -38,7 +20,7 @@ h2 {
   text-align: center;
   color: #444;
   font-weight: 400;
-}
+} */
 
 /* ================= NAVIGATION ================= */
 
@@ -139,11 +121,11 @@ main {
 }
 
 /* text block */
-.pblog p {
+/* .pblog p {
   margin-bottom: 1.2rem;
   font-size: 1.05rem;
   color: #333;
-}
+} */
 
 /* image */
 .blog-photo {
