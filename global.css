@@ -95,7 +95,7 @@ nav a {
   padding: 0 30px;
   text-decoration: none;
   font-size: 1.25rem;
-  color: black;
+  color: #3b2a1f;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -147,7 +147,7 @@ nav button {
   width: 100%;
   padding: 10px 20px;
   font-size: 1.25rem;
-  color: black;
+  color: #3b2a1f;
 }
 .sidebar a {
   -webkit-tap-highlight-color: transparent;
@@ -157,7 +157,7 @@ nav button {
 .menu-button button i,
 .sidebar button,
 .sidebar button i {
-  color: black;
+  color: #3b2a1f;
 }
 
 .menu-button button,
@@ -173,7 +173,7 @@ nav button {
 .menu-button button i,
 .sidebar button,
 .sidebar button i {
-  color: black;
+  color: #3b2a1f;
   padding: 10px 20px;
   font-size: 1.25rem;
 }
@@ -216,7 +216,7 @@ nav button {
   display: inline-block;
   padding: 12px 24px;
   border-radius: 999px;
-  background: #111;
+  background: #3b2a1f;
   color: #fff;
   border: none;
   cursor: pointer;
