@@ -1,16 +1,4 @@
-/* Logo */
-
-/* .logo img {
-  width: 100vw;
-  height: auto;
-  display: block;
-  margin: 0 auto 1.5rem auto; 
-  
-  
-} */
-
-
-/* Main content */
+  /* Main content */
 main {
   text-align: center;
    
@@ -27,12 +15,6 @@ main > p {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
-
- 
-
-
-
-  
 
 /* hero section (with overlay) */
   .hero {
@@ -74,12 +56,6 @@ main > p {
   margin-inline: auto;
 }
 
- 
-
- 
-
-
-
 /* projects button */
 .cta-buttons {
   display: flex;
@@ -108,72 +84,7 @@ main > p {
   background: #333;
 }
 
-/* .secondary-btn {
-  border: 1px solid #111;
-  color: #111;
-  background: transparent;
-}
-
-.secondary-btn:hover {
-  background: #111;
-  color: #fff;
-  transform: translateY(-3px);
-} */
-
-/* featured works */
-
-/* featured works */
- /*#featured-work {
-  padding: 2rem 1rem;
-}
-
-
  
-
-.card {
-  background: #fff;
-  border-radius: 4px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  margin: 1.5rem auto;
-  max-width: 700px;
-  width: 90vw;
-  padding: 1.5rem;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.featured-card {
-  max-width: 850px;
-  border: 2px solid #7b5e47;
-}
-
-
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
-}
-
-.card img {
-  width: 100%;
-  height: auto;
-  border-radius: 4px;
-  margin-bottom: 1rem;
-  object-fit: cover;
-}
-
-.card h3 {
-  margin-bottom: 0.5rem;
-  font-size: 1.5rem;
-  color: #222;
-}
-
-.card p {
-  font-size: 1rem;
-  line-height: 1.5;
-  color: #444;
-  margin-bottom: 1rem;
-  
-} */
 
 
 
@@ -222,61 +133,6 @@ main > p {
   margin-bottom: 1rem;
 } 
 
-
- 
-
- 
-
- /* Wrapper for each video block (was previously .video) */
-/*.video-block {
-  margin-bottom: 3rem;
-  text-align: center;
-}
-
-.video-container {
-  width: 70vw;
-  max-width: 700px;
-  aspect-ratio: 4 / 5; 
-  margin: 1.5rem auto;
-  overflow: hidden;
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
-  background: #000;
-  position: relative;
-}
-
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-  display: block;
-  transform: scale(1.3);
-  transform-origin: center;
-} */
-
- 
-
- 
-
-/* Fix Vimeo video zoom / black borders */
-/* .video-container iframe[src*="vimeo"] {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
-
-/* For local <video> files: make the <video> element behave like the iframe */
-/*.video-container.local-video video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; */  /* change to contain if you prefer letterbox */
-   /* display: block;
-  border: none;
-} */
-
 /* feature video in featured card */
 .featured-media {
   display: flex;
@@ -299,14 +155,7 @@ main > p {
   max-height: 420px;
 }
 
- 
-
- 
-
- 
-
-
-/* cta */
+ /* cta */
 
 .cta {
   max-width: 800px;
@@ -330,18 +179,7 @@ main > p {
   
 }
 
-/* mail & phone icon buttons */
-/* .cta-contact-icons {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 1rem;
-} */
-
-/* .cta .icon-button {
-  width: 60px;
-  height: 60px;
-} */
+ 
 
 .icon-button {
   text-decoration: none;
@@ -350,34 +188,6 @@ main > p {
   line-height: 1;
   display: block;
 }
-
- 
-
- 
-
- 
- 
-
-   
-
-
-
-   
-
-
-
- 
-
-.icon-button {
-  text-decoration: none;
-}
-
-.icon-button i {
-  line-height: 1;
-  display: block;
-}
-
-
 
 /* final footer */
 .footer {
@@ -418,18 +228,7 @@ main > p {
   gap: 20px;
 }
 
-/* footer .icon-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  color: orange;
-  font-size: 24px;
-  text-decoration: none;
-  transition: transform 0.3s ease;
-} */
+ 
 
 footer .icon-button {
   display: inline-flex;
@@ -535,22 +334,7 @@ footer .icon-button.twitter:hover {
   background-color: #005fcc;
 }
 
-/* footer .icon-button {
-  background: rgba(255, 255, 255, 0.20);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.35);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
-  color: green;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-footer .icon-button:active {
-  transform: scale(0.92);
-} */
+ 
 
    
 
