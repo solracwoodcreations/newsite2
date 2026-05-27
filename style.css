@@ -540,7 +540,8 @@ footer .icon-button {
   transition: transform 0.3s ease;
 }
 
-/* footer .icon-button.youtube {
+/* this */
+footer .icon-button.youtube {
   background-color: #ff0000;
 }
 
@@ -568,8 +569,8 @@ footer .icon-button.instagram {
 
 footer .icon-button.pinterest {
   background-color: #E60023; 
-} */
-
+} 
+/* this */
 footer .icon-button.facebook:hover,
 footer .icon-button.instagram:hover,
 footer .icon-button.youtube:hover,
