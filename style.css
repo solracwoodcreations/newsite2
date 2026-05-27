@@ -703,12 +703,12 @@ main p {
     aspect-ratio: 16 / 9; /* makes it fit nicely like the carousel */
 /* } */
 
-  .sidebar {
+/*  .sidebar {
   /*width: 15%;*/
-    width: min(250px, 70vw);
+    /* width: min(250px, 70vw);
   height: 100vh;
 }
-}
+} */
 
  
 
