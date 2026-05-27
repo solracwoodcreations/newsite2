@@ -512,7 +512,7 @@ footer .icon-button.twitter:hover {
   padding: 12px;
   margin-bottom: 12px;
   border: 1px solid #ccc;
-  border-radius: 6px;
+  border-radius: 999px;
   font-size: 16px;
 }
 
@@ -530,8 +530,8 @@ footer .icon-button.twitter:hover {
   background-color: #005fcc;
 }
 
-footer .icon-button
-/* .cta .icon-button */ {
+footer .icon-button 
+.cta .icon-button {
   background: rgba(255, 255, 255, 0.20);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
