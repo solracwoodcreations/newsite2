@@ -303,140 +303,7 @@ main > p {
 
  
 
-/* Carousel */
-/* .carousel-container {
-  position: relative;
-  max-width: 70vw;
-  margin: 2rem auto;
-  overflow: hidden;
-  background-color: #f0f8ff;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.carousel-track {
-  display: flex;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: none;  /* IE and Edge */
-  /* scrollbar-width: none;  /* Firefox */
- /* padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.carousel-track::-webkit-scrollbar {
-  display: none;
-}
-
-.carousel-slide {
-  flex-shrink: 0;
-  width: 100%;
-  scroll-snap-align: center;
-}
-
-.carousel-slide img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 12px;
-}
-
-.carousel-navigation {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 90%;
-  max-width: 600px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.carousel-button {
-  background: rgba(0, 0, 0, 0.5);
-  border: none;
-  color: white;
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 50%;
-  transition: background 0.3s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.carousel-button:hover {
-  background: rgba(0, 0, 0, 0.7);
-}
-
-.carousel-indicators {
-  display: flex;
-  gap: 10px;
-}
-
-.indicator {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: rgba(255,255,255,0.5);
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.indicator.active {
-  background-color: #fff;
-} */
-
-/* Larger screens carousel */
-/* @media (min-width: 768px) {
-  .carousel-container {
-    max-width: 800px;
-  }
-
-  .carousel-navigation {
-    top: 50%;
-    bottom: auto;
-    transform: translateY(-50%);
-  }
-
-  .carousel-button {
-    background: rgba(0, 0, 0, 0.3);
-  }
-  
-  .carousel-button:hover {
-    background: rgba(0, 0, 0, 0.5);
-  }
-  
-  .carousel-indicators {
-    display: none;
-  }
-} */
-
-/* Responsive nav & sidebar */
-/*@media (max-width: 768px) {
-  .hideOnMobile {
-    display: none;
-  }
-  .menu-button {
-    display: block;
-  }
-} */
-
-/* Smaller sidebar on tiny screens */
-/* @media (max-width: 400px) {
-  .sidebar {
-    width: 41%;
-    height: 50%;
-  }
-} */
-
-/* .sidebar.active ~ ul .menu-button {
-  display: none;
-} */
+ 
 
 
 /* cta */
@@ -508,15 +375,16 @@ main > p {
 
    
 
-  /* ================= FOOTER BASE ================= */
+   /* ================= FOOTER ================= */
+
 .footer {
   background: #D8C3A5;
-  color: #111;
   padding: 50px 20px;
   text-align: center;
+  color: #111;
 }
 
-/* layout */
+/* container */
 .footer-content {
   display: flex;
   flex-direction: column;
@@ -524,14 +392,17 @@ main > p {
   gap: 20px;
 }
 
-/* ================= ICONS ================= */
+/* ================= ICON ROW ================= */
+
 .footer-icons {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 16px;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
+/* each icon button */
 .footer-icons a.icon-button {
   width: 52px;
   height: 52px;
@@ -543,33 +414,34 @@ main > p {
 
   background: rgba(255, 255, 255, 0.25);
   border: 1px solid rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
 
   color: #111;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
-
   text-decoration: none;
-  transition: transform 0.2s ease;
+
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
 }
 
+/* icon size */
 .footer-icons a.icon-button i {
   font-size: 20px;
 }
 
+/* hover */
 .footer-icons a.icon-button:hover {
   transform: scale(1.1);
 }
 
 /* ================= NEWSLETTER ================= */
+
 .signup-form {
-  max-width: 380px;
   width: 100%;
+  max-width: 380px;
+  margin-top: 10px;
+
   padding: 20px;
   border-radius: 12px;
-  background: rgba(255,255,255,0.4);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+
+  background: rgba(255,255,255,0.35);
   border: 1px solid rgba(255,255,255,0.4);
 }
 
@@ -581,6 +453,7 @@ main > p {
   width: 100%;
   padding: 12px;
   margin-bottom: 10px;
+
   border-radius: 8px;
   border: 1px solid #ccc;
 }
@@ -588,10 +461,13 @@ main > p {
 .signup-form button {
   width: 100%;
   padding: 12px;
+
   border: none;
   border-radius: 8px;
+
   background: #111;
   color: white;
+
   cursor: pointer;
 }
 
