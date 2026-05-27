@@ -373,6 +373,149 @@ main > p {
   display: contents;
 }
 
+  /* =========================
+   FOOTER (SCOPED ONLY — NO GLOBAL CHANGES)
+========================= */
+
+.footer {
+  background: #111;
+  color: #fff;
+  padding: 60px 20px 30px;
+  margin-top: 80px;
+}
+
+.footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+/* Title */
+.footer .connect {
+  font-size: 1.3rem;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+/* =========================
+   SOCIAL ICONS (FIXED ONLY IN FOOTER)
+========================= */
+
+.footer-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+}
+
+/* IMPORTANT:
+   We DO NOT redefine .icon-button globally.
+   We only style it INSIDE footer context.
+*/
+.footer .icon-button {
+  width: 44px;
+  height: 44px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.2);
+
+  color: #fff;
+  background: transparent;
+
+  text-decoration: none;
+
+  transition: 0.25s ease;
+}
+
+/* hover state */
+.footer .icon-button:hover {
+  background: #7b5e47;
+  border-color: #7b5e47;
+  transform: translateY(-2px);
+}
+
+/* Font Awesome icon alignment fix (footer only) */
+.footer .icon-button i {
+  font-size: 18px;
+  line-height: 1;
+}
+
+/* =========================
+   NEWSLETTER FORM
+========================= */
+
+.signup-form {
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: center;
+}
+
+.signup-form h2 {
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+/* input */
+.signup-form input {
+  padding: 12px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: transparent;
+  color: #fff;
+  outline: none;
+}
+
+.signup-form input::placeholder {
+  color: rgba(255,255,255,0.6);
+}
+
+/* button */
+.signup-form button {
+  padding: 12px 18px;
+  border-radius: 999px;
+  border: none;
+  background: #7b5e47;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.signup-form button:hover {
+  background: #5f4635;
+}
+
+/* =========================
+   DIVIDER
+========================= */
+
+.footer-divider {
+  width: 100%;
+  max-width: 500px;
+  height: 1px;
+  background: rgba(255,255,255,0.15);
+}
+
+/* =========================
+   COPYRIGHT
+========================= */
+
+.footer .copyright {
+  text-align: center;
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.6);
+  margin-top: 20px;
+}
+
    
 
     
