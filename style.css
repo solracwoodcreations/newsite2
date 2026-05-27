@@ -746,6 +746,11 @@ footer .icon-button:active {
   transform: scale(0.92);
 }
 
+  /* THIS IS MISSING IN YOUR CURRENT SITE */
+footer .icon-button {
+  background: #111;
+  border-radius: 50%;
+}
 
 
  
