@@ -483,118 +483,7 @@ main > p {
 
  
 
-/* Footer */
-.footer {
-  background: #D8C3A5;
-  /* background: #3a2a22; */
-  color: #f5f1eb;
-  padding: 50px 0;
-  text-align: center;
-}
-
  
-
-.footer-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
-.footer-divider {
-  width: 80%;
-  height: 1px;
-  background: rgba(0,0,0,0.1);
-  margin: 25px auto;
-}
-
-.connect,
-.signup-form h2 {
-  color: #f5f1eb;
-}
-
-
-
-.connect {
-  font-size: 1.5rem;
-  
-  margin-bottom: 10px;
-  color: black;
-}
-
-.footer-icons {
-  display: flex;
-  gap: 20px;
-}
-
-/* Icon buttons */
-footer .icon-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  color: white;
-  font-size: 24px;
-  text-decoration: none;
-  transition: transform 0.3s ease;
-}
-
- 
-footer .icon-button.facebook:hover,
-footer .icon-button.instagram:hover,
-footer .icon-button.youtube:hover,
-footer .icon-button.pinterest:hover,
-footer .icon-button.tiktok:hover,
-footer .icon-button.twitter:hover,
-.cta .icon-button.phone:hover,
-.cta .icon-button.envelope:hover {
-  transform: scale(1.15);
-}
-
-footer .icon-button.facebook:hover,
-footer .icon-button.instagram:hover,
-footer .icon-button.youtube:hover,
-footer .icon-button.pinterest:hover {
-  transform: scale(1.15);
-  filter: brightness(1.1);
-}
-
-@media (max-width: 500px) {
-  .footer-icons {
-    gap: 14px;
-  }
-
-  footer .icon-button {
-    width: 45px;
-    height: 45px;
-    font-size: 20px;
-  }
-}
-
- 
-
-/* .blog-photo {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 1rem auto;
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-.pblog p {
-  padding-left: 5vw;
-  padding-right: 5vw;
-}
-
- 
-
-Match blog page author section to homepage cards 
- .blogonly .profile-pic {
-   
-  padding-bottom: 13px;
-}*/
 
  
 /* Landscape (horizontal phone) adjustments */
@@ -617,173 +506,9 @@ Match blog page author section to homepage cards
   display: contents;
 }
 
-  
-  /*.profile-pic img {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;  /* restore circular image */
-    /*object-fit: cover;
-  } */
- /* main h1,
-main h2,
-main p {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-  .card p {
-  margin-bottom: 0.15rem;
-  }
-  .card h3 {
-  margin-top: 0.15rem;
-  margin-bottom: 0.15rem;
-  }
+   
 
-  .carousel-container {
-  max-width: 90vw;
-  max-height: 85vh;
-}
-
-.carousel-slide img {
-  height: auto;
-  max-height: 85vh;
-  object-fit: contain;
-}
-
-    .video-container {
-    max-width: 90vw;
-    max-height: 85vh;
-    aspect-ratio: 16 / 9; /* makes it fit nicely like the carousel */
-/* } */
-
-/*  .sidebar {
-  /*width: 15%;*/
-    /* width: min(250px, 70vw);
-  height: 100vh;
-}
-} */
-
- 
-
-.signup-form {
-    max-width: 400px;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 12px;
-    background-color: #f2f2f2;
-    text-align: center;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    font-family: sans-serif;
-  }
-
-  .signup-form h2 {
-    margin-bottom: 15px;
-    color: #333;
-  }
-
-  .signup-form input[type="email"] {
-    width: 80%;
-    padding: 12px;
-    margin-bottom: 12px;
-    border: 1px solid #ccc;
-    border-radius: 999px;
-    font-size: 16px;
-  }
-
-/* button styling */
- .signup-form button {
-    padding: 12px 20px;
-    background-color: #111;
-    color: white;
-    border: none;
-    border-radius: 999px;
-    cursor: pointer;
-    transition: 0.2s ease;
-    font-size: 16px;
-  }
-
-  .signup-form button:hover {
-    background-color: #005fcc;
-  }
-
-/* footer .icon-button {
-  background: rgba(255, 255, 255, 0.18);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-
-  border: 1px solid rgba(255, 255, 255, 0.3);
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  color: black; /* or white depending on your footer 
-}
-
- footer .icon-button:active {
-  transform: scale(0.92);
-} */
-
-
-footer .icon-button,
-.cta .icon-button {
-  background: rgba(255, 255, 255, 0.20);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-
-  border: 1px solid rgba(255, 255, 255, 0.35);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
-
-  color: #111;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-footer .icon-button:active {
-  transform: scale(0.92);
-}
-
-  /* THIS IS MISSING IN YOUR CURRENT SITE */
-footer .icon-button {
-  background: #111;
-  border-radius: 50%;
-}
-
-  footer .icon-button {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  background: rgba(255,255,255,0.15);
-  border: 1px solid rgba(255,255,255,0.3);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-
-  color: #111;
-  font-size: 20px;
-
-  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
-
-  transition: transform 0.2s ease, background 0.2s ease;
-}
-
-footer .icon-button:hover {
-  transform: scale(1.1);
-  background: rgba(255,255,255,0.25);
-}
-
-
-  /* =========================
-   FOOTER (single source of truth)
-   ========================= */
-
+  /* ================= FOOTER BASE ================= */
 .footer {
   background: #D8C3A5;
   color: #111;
@@ -791,6 +516,7 @@ footer .icon-button:hover {
   text-align: center;
 }
 
+/* layout */
 .footer-content {
   display: flex;
   flex-direction: column;
@@ -798,102 +524,79 @@ footer .icon-button:hover {
   gap: 20px;
 }
 
-/* section title */
-.footer .connect {
-  font-size: 1.5rem;
-  color: #111;
-  margin: 0;
-}
-
-/* icons row */
+/* ================= ICONS ================= */
 .footer-icons {
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-/* ONLY icon style (no global version) */
-.footer .icon-button {
-  width: 50px;
-  height: 50px;
+.footer-icons a.icon-button {
+  width: 52px;
+  height: 52px;
   border-radius: 50%;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  background: rgba(255, 255, 255, 0.20);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-
-  border: 1px solid rgba(255, 255, 255, 0.35);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 
   color: #111;
-  font-size: 20px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
 
-  transition: transform 0.2s ease, background 0.2s ease;
   text-decoration: none;
+  transition: transform 0.2s ease;
 }
 
-.footer .icon-button:hover {
+.footer-icons a.icon-button i {
+  font-size: 20px;
+}
+
+.footer-icons a.icon-button:hover {
   transform: scale(1.1);
-  background: rgba(255, 255, 255, 0.3);
 }
 
-/* divider */
-.footer-divider {
-  width: 80%;
-  height: 1px;
-  background: rgba(0,0,0,0.15);
-}
-
-/* signup form (SCOPED to footer only) */
-.footer .signup-form {
-  max-width: 400px;
+/* ================= NEWSLETTER ================= */
+.signup-form {
+  max-width: 380px;
   width: 100%;
   padding: 20px;
   border-radius: 12px;
-
-  background: #f2f2f2;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background: rgba(255,255,255,0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.4);
 }
 
-.footer .signup-form h2 {
-  margin-bottom: 15px;
-  color: #333;
-}
-
-.footer .signup-form input[type="email"] {
-  width: 80%;
-  padding: 12px;
+.signup-form h2 {
   margin-bottom: 12px;
+}
 
+.signup-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
   border: 1px solid #ccc;
-  border-radius: 999px;
-  font-size: 16px;
 }
 
-.footer .signup-form button {
-  padding: 12px 20px;
-  background-color: #3b2a1f;
-  color: white;
+.signup-form button {
+  width: 100%;
+  padding: 12px;
   border: none;
-  border-radius: 999px;
+  border-radius: 8px;
+  background: #111;
+  color: white;
   cursor: pointer;
-  font-size: 16px;
-  transition: background 0.2s ease;
 }
 
-.footer .signup-form button:hover {
-  background-color: #2a1c15;
-}
-
-/* copyright */
-.footer .copyright {
-  margin-top: 20px;
-  font-size: 0.9rem;
-  opacity: 0.8;
+.signup-form button:hover {
+  background: #333;
 }
 
  
