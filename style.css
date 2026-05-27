@@ -489,12 +489,12 @@ footer .icon-button.twitter:hover {
   }
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
   .sidebar {
     width: 41%;
     height: 50%;
   }
-}
+} */
 
 .signup-form {
   max-width: 400px;
