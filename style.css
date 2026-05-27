@@ -381,8 +381,8 @@ main > p {
 
 /* final footer */
 .footer {
-  /*background: #D8C3A5;*/
-  background: white;
+  background: #D8C3A5;
+  
   color: #f5f1eb;
   padding: 50px 0;
   text-align: center;
@@ -410,7 +410,7 @@ main > p {
 .connect {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: black;
+  color: #3b2a1f;
 }
 
 .footer-icons {
@@ -450,7 +450,7 @@ footer .icon-button {
   border: 1px solid rgba(255, 255, 255, 0.35);
   box-shadow: 0 6px 16px rgba(0,0,0,0.15);
 
-  color: #111; /* change to green if preferred */
+  color: #3b2a1f; /* change to green if preferred */
 
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
