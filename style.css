@@ -418,7 +418,7 @@ main > p {
   gap: 20px;
 }
 
-footer .icon-button {
+/* footer .icon-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -429,6 +429,34 @@ footer .icon-button {
   font-size: 24px;
   text-decoration: none;
   transition: transform 0.3s ease;
+} */
+
+footer .icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  font-size: 24px;
+  text-decoration: none;
+
+  background: rgba(255, 255, 255, 0.20);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+
+  color: #111; /* change to green if preferred */
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+footer .icon-button:active {
+  transform: scale(0.92);
 }
 
 footer .icon-button.facebook:hover,
@@ -507,7 +535,7 @@ footer .icon-button.twitter:hover {
   background-color: #005fcc;
 }
 
-footer .icon-button {
+/* footer .icon-button {
   background: rgba(255, 255, 255, 0.20);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -522,7 +550,7 @@ footer .icon-button {
 
 footer .icon-button:active {
   transform: scale(0.92);
-}
+} */
 
    
 
