@@ -779,6 +779,123 @@ footer .icon-button:hover {
   background: rgba(255,255,255,0.25);
 }
 
+
+  /* =========================
+   FOOTER (single source of truth)
+   ========================= */
+
+.footer {
+  background: #D8C3A5;
+  color: #111;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* section title */
+.footer .connect {
+  font-size: 1.5rem;
+  color: #111;
+  margin: 0;
+}
+
+/* icons row */
+.footer-icons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* ONLY icon style (no global version) */
+.footer .icon-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(255, 255, 255, 0.20);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+
+  color: #111;
+  font-size: 20px;
+
+  transition: transform 0.2s ease, background 0.2s ease;
+  text-decoration: none;
+}
+
+.footer .icon-button:hover {
+  transform: scale(1.1);
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* divider */
+.footer-divider {
+  width: 80%;
+  height: 1px;
+  background: rgba(0,0,0,0.15);
+}
+
+/* signup form (SCOPED to footer only) */
+.footer .signup-form {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 12px;
+
+  background: #f2f2f2;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.footer .signup-form h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.footer .signup-form input[type="email"] {
+  width: 80%;
+  padding: 12px;
+  margin-bottom: 12px;
+
+  border: 1px solid #ccc;
+  border-radius: 999px;
+  font-size: 16px;
+}
+
+.footer .signup-form button {
+  padding: 12px 20px;
+  background-color: #3b2a1f;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.2s ease;
+}
+
+.footer .signup-form button:hover {
+  background-color: #2a1c15;
+}
+
+/* copyright */
+.footer .copyright {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
  
 
  
