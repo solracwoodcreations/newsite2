@@ -56,62 +56,9 @@ main > p {
   margin-inline: auto;
 }
 
-
-/* projects cta button */
-.cta-button {
-  display: inline-block;
-  padding: 12px 24px;
-  border-radius: 999px;
-  background: #111;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  transition: transform 0.2s ease, opacity 0.2s ease;
-}
-
-.cta-button:hover {
-  transform: translateY(-2px);
-  opacity: 0.9;
-}
-
-
-/* .cta-buttons {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.cta-btn {
-  padding: 12px 24px;
-  border-radius: 999px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: 0.25s ease;
-}
-
-
-
-.primary-btn {
-  background: #111;
-  color: #fff;
-}
-
-.primary-btn:hover {
-  transform: translateY(-3px);
-  background: #333;
-} */
-
- 
-
-
-
 #featured-work {
   padding: 2rem 1rem;
 }
-
-
- 
 
 .card {
   background: #fff;
@@ -190,12 +137,24 @@ main > p {
 .cta h2 {
   margin-bottom: 1rem;
 }
-
-.cta p {
-  margin-bottom: 1.5rem;
-  line-height: 1.6;
-  
+/* projects cta button */
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 999px;
+  background: #111;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.2s ease, opacity 0.2s ease;
 }
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+ 
 
  
 
@@ -206,6 +165,8 @@ main > p {
   line-height: 1;
   display: block;
 }
+
+
 
 /* final footer */
 .footer {
@@ -246,9 +207,7 @@ main > p {
   gap: 20px;
 }
 
- 
-
-footer .icon-button {
+ footer .icon-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
