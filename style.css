@@ -56,8 +56,26 @@ main > p {
   margin-inline: auto;
 }
 
-/* projects button */
-.cta-buttons {
+
+/* projects cta button */
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 999px;
+  background: #111;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+
+/* .cta-buttons {
   display: flex;
   gap: 1rem;
   justify-content: center;
@@ -82,7 +100,7 @@ main > p {
 .primary-btn:hover {
   transform: translateY(-3px);
   background: #333;
-}
+} */
 
  
 
