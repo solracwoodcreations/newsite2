@@ -153,12 +153,7 @@ nav button {
   -webkit-tap-highlight-color: transparent;
 }
 
-.menu-button button,
-.menu-button button i,
-.sidebar button,
-.sidebar button i {
-  color: #3b2a1f;
-}
+ 
 
 .menu-button button,
 .sidebar button {
@@ -178,10 +173,7 @@ nav button {
   font-size: 1.25rem;
 }
 
-/* .sidebar button,
-.sidebar button i {
-  color: black;
-} */
+ 
 
  
 
