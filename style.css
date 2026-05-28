@@ -191,10 +191,10 @@ main > p {
   margin: 25px auto;
 }
 
-.connect,
+/* .connect,
 .signup-form h2 {
   color: #f5f1eb;
-}
+} */
 
 .connect {
   font-size: 1.5rem;
@@ -285,7 +285,7 @@ footer .icon-button.twitter:hover {
 
 .signup-form h2 {
   margin-bottom: 15px;
-  color: #333;
+  color: #3b2a1f;
 }
 
 .signup-form input[type="email"] {
