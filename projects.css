@@ -24,6 +24,22 @@
   color: #111111;
 } */
 
+/* ========== EXPLORE BUTTON INSUDE HERO ================= */
+.cta-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 22px;
+  background: #111;
+  color: #fff;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.cta-btn:hover {
+  background: #333;
+}
+
 /* ================= STACKED COLLECTIONS ================= */
 .stack {
   display: flex;
@@ -84,21 +100,7 @@
   color: #fff;
 }
 
-/* ================= PRIMARY BUTTON ================= */
-.cta-btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 22px;
-  background: #111;
-  color: #fff;
-  border-radius: 999px;
-  text-decoration: none;
-  transition: 0.2s ease;
-}
-
-.cta-btn:hover {
-  background: #333;
-}
+ 
 
 /* ================= CTA SECTION (PHONE & MAIL) ================= */
 .cta {
@@ -158,12 +160,12 @@
 
  
 
-.logo {
-  text-decoration: none; /* removes underline */
-  color: inherit;        /* keeps your nav color */
- /* font-weight: bold;     or whatever your style is */
-  font-size: 1.5rem;     /* adjust as needed */
-}
+/* .logo { */
+  /* text-decoration: none; */ /* removes underline */
+ /*  color: inherit; */      /* keeps your nav color */
+ /* font-weight: bold; */     /* or whatever your style is */
+  /* font-size: 1.5rem;  */   /* adjust as needed */
+/* } */
 
  
 
