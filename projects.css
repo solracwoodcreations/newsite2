@@ -89,16 +89,7 @@
 
  
 
-/* ================= SECTION ================= */
-.section {
-  /* padding: 80px 20px; */
-  text-align: center;
-}
-
-.dark {
-  background: #111;
-  color: #fff;
-}
+ 
 
  
 
@@ -166,6 +157,16 @@
  /* font-weight: bold; */     /* or whatever your style is */
   /* font-size: 1.5rem;  */   /* adjust as needed */
 /* } */
+/* ================= VIDEO SECTION ================= */
+.section {
+  /* padding: 80px 20px; */
+  text-align: center;
+}
+
+.dark {
+  background: #111;
+  color: #fff;
+}
 
  
 
