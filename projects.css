@@ -238,11 +238,11 @@
 }
 
 /* button styling */
-.newsletter-mini button {
+.signup-form button {
   padding: 9px 14px;
   border-radius: 999px;
   border: none;
-  background: #3b2a1f;
+  background: #red;
   color: #fff;
   cursor: pointer;
   transition: 0.2s ease;
