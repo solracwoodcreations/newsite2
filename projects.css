@@ -238,12 +238,12 @@
 }
 
 /* button styling */
-.signup-form button {
+.newsletter-mini button {
   padding: 9px 14px;
   border-radius: 999px;
   border: none;
-  background: red;
-  color: #fff;
+  /* background: red;
+  color: #fff; */
   cursor: pointer;
   transition: 0.2s ease;
 }
