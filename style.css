@@ -235,14 +235,21 @@ footer .icon-button:active {
   transform: scale(0.92);
 }
 
-footer .icon-button.facebook:hover,
+/* footer .icon-button.facebook:hover,
 footer .icon-button.instagram:hover,
 footer .icon-button.youtube:hover,
 footer .icon-button.pinterest:hover,
 footer .icon-button.tiktok:hover,
 footer .icon-button.twitter:hover {
   transform: scale(1.15);
+} */
+
+footer .icon-button:hover {
+  transform: scale(1.15);
 }
+
+
+
 
 @media (max-width: 500px) {
   .footer-icons {
