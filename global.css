@@ -10,6 +10,11 @@
   --color-text-light: #444444;
   --color-heading: #3b2a1f;
 
+  /* Button */
+  --button-bg: #3b2a1f;
+  --button-text: #fff;
+}
+
   /* Accent */
   --color-accent: #7b5e47;
 
@@ -44,18 +49,19 @@ html {
 /* =========================
    buttons
 ========================= */
-.signup-form button {
-   background-color: #3b2a2f;
-   color: #fff;
-   border: none;
-  border-radius: 999px;
-  cursor: pointer;
+button {
+background: var(--button-bg);
+color: var(--button-text);
 }
 
 
-
-
-
+.signup-form button {
+   /* background-color: #3b2a2f;
+   color: #fff; */
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+}
 
 /* =========================
    BASE TYPOGRAPHY
