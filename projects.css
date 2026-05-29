@@ -25,7 +25,7 @@
 } */
 
 /* ========== EXPLORE BUTTON INSUDE HERO ================= */
-.cta-btn {
+.cta-button {
   display: inline-block;
   margin-top: 20px;
   padding: 12px 22px;
@@ -36,7 +36,7 @@
   transition: 0.2s ease;
 }
 
-.cta-btn:hover {
+.cta-button:hover {
   background: #333;
 }
 
