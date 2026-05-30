@@ -52,16 +52,18 @@ html {
 button {
 background: var(--button-bg);
 color: var(--button-text);
+text-decoration: none;
+border: none;
+border-radius: 999px;
+cursor: pointer;
 }
 
 
-.signup-form button {
+/* .signup-form button { */
    /* background-color: #3b2a2f;
-   color: #fff; */
-  border: none;
-  border-radius: 999px;
-  cursor: pointer;
-}
+   color: #fff; 
+  
+} */
 
 /* =========================
    BASE TYPOGRAPHY
@@ -73,7 +75,10 @@ body {
   line-height: 1.5;
 }
 
-/* Navigation */
+
+/* =========================
+        NAV SECTION
+========================= */
 nav {
   position: fixed;
   top: 0;
@@ -185,7 +190,7 @@ nav button {
 .menu-button button i,
 .sidebar button,
 .sidebar button i {
-  color: #3b2a1f;
+  color: inherit;
   padding: 10px 20px;
   font-size: 1.25rem;
 }
@@ -206,7 +211,7 @@ nav button {
   height: 50px;
   display: flex;
   align-items: center;
-  color: black;
+  color: inherit;
 }
 
 @media (max-width: 768px) {
@@ -221,15 +226,15 @@ nav button {
 
 
 /* newsletter sign up button */
-.primary-btn {
+/* .primary-btn {
   display: inline-block;
   padding: 12px 24px;
   border-radius: 999px;
   background: #3b2a1f;
   color: #fff;
   border: none;
-  cursor: pointer;
-}
+  cursor: pointer; 
+} */
 
 
  
@@ -261,9 +266,9 @@ a {
   text-decoration: none;
 }
 
-.icon-button {
+/* .icon-button {
   text-decoration: none;
-}
+} */
 
 /* =========================
    SECTION BEHAVIOR
