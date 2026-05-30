@@ -49,14 +49,14 @@ html {
 /* =========================
    buttons
 ========================= */
-button {
+/* button {
 background: var(--button-bg);
 color: var(--button-text);
 text-decoration: none;
 border: none;
 border-radius: 999px;
 cursor: pointer;
-}
+} */
 
 
 /* .signup-form button { */
