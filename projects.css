@@ -184,9 +184,9 @@
   align-items: center;
   justify-content: center;
 
-  /* background: #3b2a1f;
+ background: #3b2a1f;
   color: #fff;
-  text-decoration: none; */
+  text-decoration: none; 
 
   transition: transform 0.2s ease, background 0.2s ease;
 }
