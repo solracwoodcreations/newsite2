@@ -119,12 +119,15 @@ nav a {
   font-size: 1.25rem;
   color: #3b2a1f;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+   transition: color 0.3s ease, background-color 0.3s ease;
+  
+}
+ 
+
+nav a:hover {
+  color: #7b5e47;
 }
 
-/* nav a:hover {
-  background-color: #5a4030;
-} */
 
 nav button {
   border: none;
@@ -347,4 +350,26 @@ section {
   letter-spacing: 3px;
   color: #888;
   margin-bottom: 0.5rem;
+   
 }
+
+
+/* ======= destop tyles ===== */
+@media (min-width: 1024px) {
+
+  p {
+    font-size: 1.125rem;
+    line-height: 1.8;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
+}
+
+
