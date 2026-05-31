@@ -140,6 +140,35 @@
 }
 
 
+@media (min-width: 1024px) {
+
+  .video-card {
+    flex: 0 0 360px;
+  }
+
+  .video-scroll {
+    justify-content: center;
+    gap: 24px;
+  }
+}
+
+/* @media (min-width: 1024px) {
+
+  .video-scroll {
+    overflow-x: visible;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .video-card {
+    flex: 0 0 380px;
+  }
+} */
+
+
+
+
+
 /* ================= CTA SECTION (PHONE & MAIL) ================= */
 .cta {
   padding: 50px 20px;
