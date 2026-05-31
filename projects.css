@@ -269,6 +269,43 @@
 }
 
 
+
+
+
+/* ====== gallery style scroll cards for desktop ==== */
+@media (min-width: 1024px) {
+
+  .inner-scroll {
+    overflow-x: visible;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .inner-item {
+    flex: 0 0 260px;
+  }
+} 
+
+
+
+
+/* ======= grid version desktop styles for scroll cards === */
+
+/*@media (min-width: 1024px) {
+
+  .inner-scroll {
+    overflow-x: visible;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 24px;
+  }
+
+  .inner-item {
+    flex: 0 0 280px;
+  }
+} */
+
+
  
  
 
