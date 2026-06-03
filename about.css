@@ -126,7 +126,7 @@ header h1 a {
 
 
 main {
-  /* max-width: 900px; */
+   max-width: 900px; 
   margin: 0 auto;
   padding: 30px 16px 80px;
   text-align: left;
