@@ -1,0 +1,136 @@
+/* =========================
+   ABOUT PAGE LAYOUT
+========================= */
+
+/* Prevent content from sitting under fixed nav visually */
+main {
+  text-align: center;
+  padding: 5rem 1.5rem 2rem;
+}
+
+/* =========================
+   SECTION SPACING SYSTEM
+========================= */
+section {
+  margin-bottom: 45px;
+}
+
+section p {
+  margin-bottom: 14px;
+}
+
+/* Global paragraph control (fallback) */
+main p {
+  max-width: 750px;
+  margin: 0 auto 1rem;
+  padding: 0 1rem;
+  color: var(--color-text-light);
+}
+
+/* =========================
+   INTRO SECTION
+========================= */
+#founder-intro {
+  text-align: center;
+  margin-bottom: 60px;
+  padding-top: 10px;
+}
+
+#founder-title {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* IMAGE — STICKER STYLE */
+#founder-intro img {
+  width: 80vw;
+  max-width: 420px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+/* =========================
+   TYPOGRAPHY OVERRIDES
+========================= */
+.no-accent {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+/* Section headings */
+section h2 {
+  margin-bottom: 1rem;
+}
+
+/* =========================
+   LISTS
+========================= */
+ul {
+  padding-left: 18px;
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+li {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* =========================
+   LINKS
+========================= */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+  text-align: center;
+  padding: 30px 10px;
+  font-size: 0.85rem;
+  color: #777;
+  border-top: 1px solid #eee;
+}
+
+/* =========================
+   DESKTOP
+========================= */
+@media (min-width: 1024px) {
+
+  main {
+    padding: 6rem 2rem 3rem;
+  }
+
+  main p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+
+  section h2 {
+    font-size: 2rem;
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+@media (max-width: 600px) {
+
+  main {
+    padding: 4.5rem 1rem 3rem;
+  }
+
+  #founder-intro img {
+    width: 85vw;
+    max-width: 320px;
+  }
+
+  ul {
+    padding-left: 16px;
+  }
+}
