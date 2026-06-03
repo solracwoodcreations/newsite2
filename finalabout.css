@@ -4,7 +4,7 @@
 
 /* Prevent content from sitting under fixed nav visually */
 main {
-  text-align: center;
+  text-align: left;
   padding: 5rem 1.5rem 2rem;
 }
 
