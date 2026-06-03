@@ -1,6 +1,31 @@
 /* =========================
-   ABOUT PAGE LAYOUT
+   header section
 ========================= */
+header {
+  text-align: center;
+  padding: 30px 15px 10px;
+}
+
+header h1 {
+  /* font-size: 1.9rem; */
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: #111;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #666;
+  margin-top: 0;
+}
+
+
+
 
 /* Prevent content from sitting under fixed nav visually */
 /* main {
