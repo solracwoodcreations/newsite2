@@ -3,9 +3,15 @@
 ========================= */
 
 /* Prevent content from sitting under fixed nav visually */
-main {
+/* main {
   text-align: left;
   padding: 5rem 1.5rem 2rem;
+} */
+main {
+  /* max-width: 900px; */
+  margin: 0 auto;
+  padding: 30px 16px 80px;
+  text-align: left;
 }
 
 /* =========================
