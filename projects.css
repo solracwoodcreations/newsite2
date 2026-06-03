@@ -335,6 +335,18 @@
 } */
 
 
+
+/* ============= ABOUT PAGE =========== */
+/* IMAGE — STICKER STYLE (NO CIRCLE) */
+#founder-intro img {
+  width: 80vw;
+  max-width: 420px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+
  
  
 
