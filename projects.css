@@ -302,7 +302,7 @@
 
 
 /* ====== gallery style scroll cards for desktop ==== */
-@media (min-width: 1024px) {
+/*@media (min-width: 1024px) {
 
   .inner-scroll {
     overflow-x: visible;
@@ -313,14 +313,14 @@
   .inner-item {
     flex: 0 0 260px;
   }
-} 
+} */
 
 
 
 
 /* ======= grid version desktop styles for scroll cards === */
 
-/*@media (min-width: 1024px) {
+@media (min-width: 1024px) {
 
   .inner-scroll {
     overflow-x: visible;
@@ -332,19 +332,11 @@
   .inner-item {
     flex: 0 0 280px;
   }
-} */
+} 
 
 
 
-/* ============= ABOUT PAGE =========== */
-/* IMAGE — STICKER STYLE (NO CIRCLE) */
-#founder-intro img {
-  width: 80vw;
-  max-width: 420px;
-  height: auto;
-  display: block;
-  margin: 0 auto 20px;
-}
+ 
 
 
  
