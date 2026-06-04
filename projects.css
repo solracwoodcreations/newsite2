@@ -320,7 +320,7 @@
 
 /* ======= grid version desktop styles for scroll cards === */
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
 
   .inner-scroll {
     overflow-x: visible;
@@ -332,7 +332,37 @@
   .inner-item {
     flex: 0 0 280px;
   }
-} 
+} */
+
+
+
+/* ===== just like mobile ==== */
+@media (min-width: 1024px) {
+
+  /* ================= OUTER SECTIONS ================= */
+  .outer-card {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+
+  /* ================= HORIZONTAL SCROLL ROWS ================= */
+  .inner-scroll {
+    overflow-x: auto; /* keep horizontal scroll */
+    flex-wrap: nowrap; /* IMPORTANT: prevents grid/wrap behavior */
+    justify-content: flex-start;
+    gap: 18px;
+    padding-bottom: 12px;
+  }
+
+  /* ================= CARDS ================= */
+  .inner-item {
+    flex: 0 0 240px; /* keeps cards compact on desktop */
+  }
+
+}
+
+
 
 
 
