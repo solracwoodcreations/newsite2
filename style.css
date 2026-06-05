@@ -61,16 +61,16 @@ main > p {
   display: inline-block;
   margin-top: 20px;
   padding: 12px 22px;
-  /* background: #3b2a1f;
-  color: #fff; */
+  background: #3b2a1f;
+  color: #fff; 
   border-radius: 999px;
   text-decoration: none; 
   transition: 0.2s ease;
 }
 
-/* .cta-button:hover {
+.cta-button:hover {
   background: #333;
-} */
+} 
 
 
 
