@@ -18,7 +18,7 @@ main > p {
 
 /* hero section (with overlay) */
   .hero {
-  min-height: 75vh;
+  min-height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
