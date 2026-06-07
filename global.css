@@ -397,4 +397,30 @@ section {
 
 }
 
+/* JUST ADDED */
+@media (max-width: 768px) {
+  .hideOnMobile {
+    display: none;
+  }
+
+  .menu-button {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  nav ul {
+    justify-content: space-between;
+    padding: 0 40px;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .sidebar {
+    display: none !important;
+  }
+}
+
 
