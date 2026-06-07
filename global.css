@@ -69,10 +69,12 @@ cursor: pointer;
    BASE TYPOGRAPHY
 ========================= */
 body {
-  font-family: 'Inter', sans-serif;
-  background-color: var(--color-bg);
-  color: var(--color-text);
-  line-height: 1.5;
+ padding-top: env(safe-area-inset-top);
+ padding-bottom: env(safe-area-inset-bottom);
+ font-family: 'Inter', sans-serif;
+ background-color: var(--color-bg);
+ color: var(--color-text);
+ line-height: 1.5;
 }
 
 
