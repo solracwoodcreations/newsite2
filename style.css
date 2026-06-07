@@ -283,15 +283,20 @@ footer .icon-button:hover {
   }
 }
 
-@media (max-width: 768px) {
+
+/* have this in global CSS */
+
+/* @media (max-width: 768px) {
   .hideOnMobile {
     display: none;
   }
   .menu-button {
     display: block;
   }
-}
+} */
 
+
+/* this was already commented out */
 /* @media (max-width: 400px) {
   .sidebar {
     width: 41%;
