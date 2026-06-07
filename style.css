@@ -224,7 +224,7 @@ main > p {
 
 .footer-icons {
   display: flex;
-  gap: 20px;
+  gap: 50px;
 }
 
  footer .icon-button {
