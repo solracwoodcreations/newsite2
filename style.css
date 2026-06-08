@@ -284,6 +284,19 @@ footer .icon-button:hover {
 }
 
 
+@media (orientation: landscape) and (max-width: 900px) {
+  .footer-icons {
+    gap: 50px;
+  }
+
+  footer .icon-button {
+    width: 70px;
+    height: 70px;
+    font-size: 35px;
+  }
+}
+
+
 /* have this in global CSS */
 
 /* @media (max-width: 768px) {
