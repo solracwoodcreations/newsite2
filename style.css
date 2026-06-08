@@ -224,7 +224,7 @@ main > p {
 
 .footer-icons {
   display: flex;
-  gap: 50px;
+  gap: 40px;
 }
 
  footer .icon-button {
@@ -232,11 +232,11 @@ main > p {
   align-items: center;
   justify-content: center;
 
-  width: 65px;
-  height: 65px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
 
-  font-size: 30px;
+  font-size: 15px;
   text-decoration: none;
 
   background: rgba(255, 255, 255, 0.20);
@@ -286,13 +286,13 @@ footer .icon-button:hover {
 
 @media (orientation: landscape) and (max-width: 900px) {
   .footer-icons {
-    gap: 50px;
+    gap: 30px;
   }
 
   footer .icon-button {
-    width: 70px;
-    height: 70px;
-    font-size: 35px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
   }
 }
 
