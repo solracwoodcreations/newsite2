@@ -59,6 +59,46 @@ cursor: pointer;
 } 
 
 
+/* primary buttons /explore hero button */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 22px;
+  border-radius: 999px;
+  background: #3b2a1f;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+
+/* ==== ICON BUTTONS ======= */
+.icon-btn {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #3b2a1f;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.icon-btn:hover {
+  transform: translateY(-3px);
+  background: #333;
+}
+
+
 /* .signup-form button { */
    /* background-color: #3b2a2f;
    color: #fff; 
