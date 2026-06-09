@@ -224,7 +224,7 @@ main > p {
 
 .footer-icons {
   display: flex;
-  gap: 40px;
+  gap: 25px;
 }
 
  footer .icon-btn {
@@ -232,8 +232,8 @@ main > p {
   align-items: center;
   justify-content: center;
 
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
 
   font-size: 15px;
