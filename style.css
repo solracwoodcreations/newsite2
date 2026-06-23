@@ -356,6 +356,22 @@ footer .icon-btn:hover {
   background-color: #005fcc;
 }
 
+
+@media (min-width: 900px) {
+  #featured-work {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 1100px;
+    margin: auto;
+  }
+
+  .card {
+    width: 100%;
+    max-width: none;
+  }
+}
+
  
 
    
