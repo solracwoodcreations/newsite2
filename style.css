@@ -357,7 +357,7 @@ footer .icon-btn:hover {
 }
 
 
-/* @media (min-width: 900px) {
+ @media (min-width: 900px) {
   #featured-work {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -370,7 +370,7 @@ footer .icon-btn:hover {
     width: 100%;
     max-width: none;
   }
-} */
+} 
 
  
 
