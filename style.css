@@ -265,6 +265,7 @@ footer .icon-button.twitter:hover {
 } */
 
 footer .icon-btn:hover {
+  color: #d4af37
   transform: scale(1.15);
 }
 
