@@ -289,15 +289,6 @@ footer .icon-btn:hover {
   .footer-icons {
     gap: 30px;
   }
-}
-
-  
-  @media (min-width: 900px) {
-    .footer-icons {
-      gap: 30px;
-      
-    }
-  }
 
   footer .icon-btn {
     width: 50px;
@@ -305,6 +296,13 @@ footer .icon-btn:hover {
     font-size: 25px;
   }
 }
+
+ @media (min-width: 900px) {
+    .footer-icons {
+      gap: 30px;
+      
+    }
+  }
 
 
 /* have this in global CSS */
