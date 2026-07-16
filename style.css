@@ -389,9 +389,11 @@ footer .icon-btn:hover {
     max-width: 1200px;
     margin: 0 auto;
   }
+
+
   
   .card {
-    max-width: 700px;
+    max-width: 500px;
     margin: 2rem auto;
     padding: 1rem;
   }
