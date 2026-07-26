@@ -401,6 +401,13 @@ footer .icon-btn:hover {
   }
 }
 
+@media (max-width: 1139px) {
+  .hero {
+    background: url('images/graceduo.jpeg') center/cover no-repeat;
+    height: 85vh; /* Adjust height as needed */
+  }
+}
+
  
 
    
