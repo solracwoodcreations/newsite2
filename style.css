@@ -272,7 +272,7 @@ footer .icon-btn:hover {
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 450px) {
   .footer-icons {
     gap: 14px;
   }
@@ -285,7 +285,7 @@ footer .icon-btn:hover {
 }
 
 
-@media (orientation: landscape) and (max-width: 900px) {
+@media (orientation: landscape) and (max-width: 932px) {
   .footer-icons {
     gap: 30px;
   }
@@ -297,12 +297,12 @@ footer .icon-btn:hover {
   }
 }
 
- @media (min-width: 900px) {
+/* @media (min-width: 900px) {
     .footer-icons {
       gap: 30px;
       
     }
-  }
+  } */
 
 
 /* have this in global CSS */
