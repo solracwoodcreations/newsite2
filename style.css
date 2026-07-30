@@ -403,7 +403,7 @@ footer .icon-btn:hover {
 
 @media (max-width: 1139px) {
   .hero {
-    background: url('images/IMG_E4983.jpeg') center/cover no-repeat;
+    background: url('images/gracehero.jpeg') center/cover no-repeat;
     height: 85vh; /* Adjust height as needed */
   }
 }
