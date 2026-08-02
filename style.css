@@ -401,6 +401,15 @@ footer .icon-btn:hover {
   .footer-icons {
     gap: 60px; /* or whatever spacing you prefer */
   }
+  
+  .footer-content h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  line-height: 1.25;
+  font-weight: 600;
+}
+     
+
 }
 
 @media (max-width: 1139px) {
