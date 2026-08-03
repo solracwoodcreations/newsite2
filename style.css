@@ -17,7 +17,23 @@ main > p {
 }
 
 /* hero section (with overlay) */
-  .hero {
+ 
+  .hero h1 {
+  /* font-size: clamp(2rem, 5vw, 3.5rem); */
+  margin-bottom: 1rem;
+  color: white;
+  font-size: 3rem;
+  }
+
+.hero p {
+  opacity: 0.95;
+  margin-bottom: 2rem;
+  color: white;
+  max-width: 700px;
+  margin-inline: auto;
+}
+  
+.hero {
   min-height: 85vh;
   display: flex;
   align-items: center;
@@ -41,20 +57,7 @@ main > p {
   max-width: 900px;
   color: white;
 }
-  .hero h1 {
-  /* font-size: clamp(2rem, 5vw, 3.5rem); */
-  margin-bottom: 1rem;
-  color: white;
-  font-size: 3rem;
-  }
 
-.hero p {
-  opacity: 0.95;
-  margin-bottom: 2rem;
-  color: white;
-  max-width: 700px;
-  margin-inline: auto;
-}
 
 /* ========== EXPLORE BUTTON INSUDE HERO ================= */
 .cta-button {
