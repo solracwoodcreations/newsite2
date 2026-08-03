@@ -419,7 +419,7 @@ section {
 }
 
 
-/* ======= destop tyles ===== */
+/* ======= destop tyles ===== 
 @media (min-width: 1024px) {
 
   p {
@@ -435,7 +435,7 @@ section {
     font-size: 1.75rem;
   }
 
-}
+} */
 
 /* JUST ADDED 
 @media (max-width: 768px) {
