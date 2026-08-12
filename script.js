@@ -103,3 +103,9 @@ function closeProject(){
 document.getElementById("projectSidebar").classList.remove("open");
 
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    });
+});
