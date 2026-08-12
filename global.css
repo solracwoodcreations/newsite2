@@ -164,6 +164,11 @@ nav a {
    transition: color 0.3s ease, background-color 0.3s ease;
   
 }
+
+nav a:focus,
+nav a:active {
+  outline: none;
+}
  
 
 nav a:hover {
