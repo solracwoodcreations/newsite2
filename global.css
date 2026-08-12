@@ -165,10 +165,7 @@ nav a {
   
 }
 
-nav a:focus,
-nav a:active {
-  outline: none;
-}
+ 
  
 
 nav a:hover {
