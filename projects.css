@@ -144,7 +144,7 @@
 }
 
 
-@media (min-width: 720px) {
+@media (min-width: 1050px) {
 
   .video-card {
     flex: 0 0 360px;
