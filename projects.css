@@ -106,7 +106,7 @@
 
 /* each video item */
 .video-card {
-  flex: 0 0 80%;
+  flex: 0 0 55%;
   scroll-snap-align: center;
   
 }
