@@ -144,7 +144,7 @@
 }
 
 
-@media (min-width: 1024px) {
+@media (min-width: 720px) {
 
   .video-card {
     flex: 0 0 360px;
@@ -365,6 +365,8 @@
   .inner-item {
     flex: 0 0 240px; /* keeps cards compact on desktop */
   }
+
+
 
 }
 
