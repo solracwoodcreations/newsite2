@@ -151,6 +151,12 @@
   border: none;
   display: block;
 }
+
+#vlogs {
+  scroll-margin-top: 50px;
+}
+
+
 #vlogs h2 {
     margin-bottom: 30px;
 }
