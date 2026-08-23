@@ -191,7 +191,11 @@ main > p {
 
 
 /* final footer */
+ 
 .footer {
+  scroll-margin-top: 110px;
+  
+  
   background: #D8C3A5;
   
   color: #f5f1eb;
