@@ -361,6 +361,10 @@
 /* ===== just like mobile 1024px ==== */
 @media (min-width: 500px) {
 
+  .cta {
+    scroll-margin-top: 80px;
+  }
+
   
 
   /* ================= OUTER SECTIONS ================= */
