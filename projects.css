@@ -198,8 +198,9 @@
 .cta {
   
    
-  margin: 100px 0;
-  padding: 130px 5px;
+  margin: 10px 0;
+  padding: 20px 5px;
+  padding-bottom: 80px;
   text-align: center;
 
   display: flex;
