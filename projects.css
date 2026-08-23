@@ -129,6 +129,7 @@
 
 /* actual video container */
 .video-container {
+  margin-bottom: 80px;
   width: 100%;
   aspect-ratio: 4 / 5;
 
@@ -155,9 +156,7 @@
 }
 
 
-#vlogs h2 {
-    margin-bottom: 30px;
-}
+ 
 
 
 @media (min-width: 1050px) {
