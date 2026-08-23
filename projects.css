@@ -200,7 +200,7 @@
    
   margin: 10px 0;
   padding: 20px 5px;
-  padding-bottom: 80px;
+  
   text-align: center;
 
   display: flex;
@@ -254,12 +254,13 @@
   background: #333;
 }
 #cta {
-  scroll-margin-top: 80px;
+  scroll-margin-top: 90px;
 }
 
 
 /* ================= NEWSLETTER MINI ================= */
 .newsletter-mini {
+  margin-bottom: 60px;
   padding: 20px 10px;
   text-align: center;
   display: flex;
