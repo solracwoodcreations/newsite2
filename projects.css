@@ -252,6 +252,9 @@
   transform: translateY(-3px);
   background: #333;
 }
+#cta {
+  scroll-margin-top: 80px;
+}
 
 
 /* ================= NEWSLETTER MINI ================= */
