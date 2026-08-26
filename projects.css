@@ -177,7 +177,7 @@
   }
 }
 
-/* @media (min-width: 1024px) {
+  @media (min-width: 1024px) {
 
   .video-scroll {
     overflow-x: visible;
@@ -188,7 +188,7 @@
   .video-card {
     flex: 0 0 380px;
   }
-} */
+}  
 
 
 
